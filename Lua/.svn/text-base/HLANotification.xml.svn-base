@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/23/2011 2:59:36 PM -->
+<Context Font="TwCenMT14" FontStyle="Base" Color="Beige" Color1="Black">
+	<Container ID="Test" Size="250,250" Padding="0,0" Anchor="R,T" Offset="0,120" Hidden="1">
+		<Grid Anchor="C,C" Offset="0,0" Size="250,250"  Style="Grid9DetailThree140" ConsumeMouse="0" Hidden="0">
+			<Label ID="HLANotification" WrapWidth="220" String ="New Historical Learning Agent Information Available" Anchor ="C,T" Offset="0,60" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="SoftShadow" Hidden ="0"/>
+			<GridButton ID="Show" Anchor="L,B" Style="SmallButton" Offset="25,50"  Size="80,32" Hidden="0">
+				<Label  Anchor="C,C" String="Show"  Offset="0,0" ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Shadow"  />
+			</GridButton>
+			<GridButton ID="Ignore" Anchor="R,B" Style="SmallButton" Offset="25,50"  Size="80,32" Hidden="0">
+				<Label  String="Ignore" Anchor="C,C" Offset="0,0" ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Shadow"  />
+			</GridButton>
+		</Grid>
+	</Container>
+</Context>

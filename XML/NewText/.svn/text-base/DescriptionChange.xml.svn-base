@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is for those research and production popup descriptions that need to be changed-->
+<!-- Description Text is inside each Set Text tag-->
+<!-- Replace text within the quotations, do not delete quotations otherwise won't work-->
+<!-- There are two blocks of text for each research, the first one is the upper one and the second is the bottom one-->
+<!-- All the texts I put here are the original texts -->
+<!-- [NEWLINE] means to start a new line, [TAB] means indentation, and other [] are some game objects, for example, icons
+     so please try not to change them much-->
+<!-- When you need quotations inside the text quotation, use single quotation marks-->
+<GameData>
+	<Language_en_US>
+		<!-- Agriculture -->
+		<Update>
+			<Set Text="[NEWLINE][TAB][TAB]'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.'[NEWLINE][TAB][TAB]  - Daniel Webster[NEWLINE][TAB]"/>
+			<Where Tag="TXT_KEY_TECH_AGRICULTURE_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="	Allows Workers to construct [COLOR_POSITIVE_TEXT]Farms[ENDCOLOR], vital for increasing the [ICON_FOOD] [COLOR_POSITIVE_TEXT]Food[ENDCOLOR] output of map tiles."/>
+			<Where Tag="TXT_KEY_TECH_AGRICULTURE_HELP"/>
+		</Update>
+		
+		<!-- Pottery -->
+		<Update>
+			<Set Text="[NEWLINE][TAB][TAB]'The potter is covered with earth, although his lifetime is still among the living. He burrows in the field more than swine to bake his cooking vessels'. The Instructions of Dua-Khety from the Middle Kingdom.[NEWLINE]The majority of pottery from Egypt is a reddish brown undecorated clay called Nile silt ware that served everyday purposes. Throughout the years pottery became more complex, the techniques more refined, and the decorations more elaborate."/>
+			<Where Tag="TXT_KEY_TECH_POTTERY_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="Allows your cities to build the [COLOR_POSITIVE_TEXT]Granary[ENDCOLOR], which provides [ICON_FOOD] Food, helping your cities grow larger."/>
+			<Where Tag="TXT_KEY_TECH_POTTERY_HELP"/>
+		</Update>
+		
+		<!-- Animal Husbandry-->
+		<Update>
+			<Set Text="[NEWLINE][TAB][TAB]You have goaded the oxen on all the roads.[NEWLINE]'You have walked over the sand. Now you are trampling on the grass. You are eating the rich plants. Now you are sated. May it become your bodies well.' Herdsman's song from the tomb of Petosiris from the Old Kingdom[NEWLINE]Sheep, goats, cattle, pigs and geese were raised from the earliest periods in Egypt and supplied a wide range of products including milk, wool, meat, eggs, leather, skins, horn and fat. Domesticated animals were of high economic significance for their meat, their byproducts and their labor in transportation and farming."/>
+			<Where Tag="TXT_KEY_TECH_ANIMAL_HUSBANDRY_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="Allows Workers to construct [COLOR_POSITIVE_TEXT]Pastures[ENDCOLOR] on [ICON_RES_COW] [COLOR_POSITIVE_TEXT]Cows[ENDCOLOR] and [ICON_RES_SHEEP] [COLOR_POSITIVE_TEXT]Sheep[ENDCOLOR]. Also reveals [ICON_RES_HORSE] Horses, which are used to build powerful mounted units."/>
+			<Where Tag="TXT_KEY_TECH_ANIMAL_HUSBANDRY_HELP"/>
+		</Update>
+
+		<!-- Archery-->
+		<Update>
+			<Set Text="[NEWLINE][TAB][TAB]'When His Majesty appeared in his chariot like Montu with all his power, he reached for his bow and grabbed four arrows with one hand. He speeded his chariot shooting at the targets, like Montu the god. His arrow penetrated the target, cleaving it.' From the Stela of Amenhotep II from the New Kingdom.[NEWLINE]Archery is one of the earliest forms of weaponry in Egypt, with improvements made throughout the periods. The oldest bows were single curves of wood strung with sinew, with double curves introduced in the late Pre-dynastic, and composite bows used in the New Kingdom. Arrowheads were originally made of flint, with the transition to Bronze in the Middle Kingdom and Iron in the New Kingdom."/>
+			<Where Tag="TXT_KEY_TECH_ARCHERY_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Archer[ENDCOLOR], the first ranged unit in the game."/>
+			<Where Tag="TXT_KEY_TECH_ARCHERY_HELP"/>
+		</Update>
+		
+		<!-- Mining-->
+		<Update>
+			<Set Text="[NEWLINE][TAB][TAB]'I came to the mine of Ka; I exacted the impost, I attended to the levying of the impost of malachite, being for every 5 men every day correctly'. Inscription of Amenemhet from the Middle Kingdom.[NEWLINE]While quarries for stone could be found easily along the Nile, precious stones and metals were found in the deserts. Shrines were built by the mines in honor of Hathor to protect the miners. Copper, iron, gold and silver were some of the earliest ores mined, although malachite, turquoise and salt were also found."/>
+			<Where Tag="TXT_KEY_TECH_MINING_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="Allows Workers to construct [COLOR_POSITIVE_TEXT]Mines[ENDCOLOR] to increase the [ICON_PRODUCTION] Production of map tiles, and [COLOR_POSITIVE_TEXT]Chop Forests[ENDCOLOR], allowing the construction of other improvements."/>
+			<Where Tag="TXT_KEY_TECH_MINING_HELP"/>
+		</Update>
+		
+		<!-- Sailing-->
+		<Update>
+			<Set Text="[NEWLINE][TAB][TAB]'I built you ships, freight ships, arched ships with rigging, plying the Big Green (the sea). I manned them with archers, captains and innumerable sailors, to bring the goods of the Land of Tyre and the foreign countries at the end of the world to your storage rooms at Thebes the Victorious.' Note from Ramses III to Amen from the New Kingdom.[NEWLINE]The first boats excavated at Abydos from the Old Kingdom were about 25 meters long, three meters wide and about sixty centimeters deep, seating 30 rowers. The boats were constructed of primarily of cedar, although smaller boats were made of reeds and papyrus. Artwork and models show the importance of boats throughout Egyptian history. Six full size ships have been excavated at Dahshur, although most information comes from looking at models found in tombs."/>
+			<Where Tag="TXT_KEY_TECH_SAILING_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="Allows you to build military and economic ships, useful for exploration and harvesting resources in the water like [ICON_RES_FISH] [COLOR_POSITIVE_TEXT]Fish[ENDCOLOR] and [ICON_RES_PEARLS] [COLOR_POSITIVE_TEXT]Pearls[ENDCOLOR]."/>
+			<Where Tag="TXT_KEY_TECH_SAILING_HELP"/>
+		</Update>
+		
+		<!-- Calender-->
+		<Update>
+			<Set Text="[NEWLINE][TAB][TAB]'I was curious to learn why the Nile is flooding for a hundred days from the summer solstice; and when this time is passed, sinks again, and the river is low during the whole winter until the summer solstice again'. From Herodotus' Histories[NEWLINE]Egypt had two primary calendars: lunar and civil, with each serving drastically different purposes. The civil calendar was based on the seasons and the flooding of the Nile. A year was measured by the length of time between inundations. The more precise calendar was the lunar calendar used for religious purposes. This was based on observations of the stages of the moon. The year was divided into 354 days and a twelve month lunar cycle. These were split into three agricultural seasons."/>
+			<Where Tag="TXT_KEY_TECH_CALENDAR_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="	Allows Workers to construct [COLOR_POSITIVE_TEXT]Plantations[ENDCOLOR] on many Luxury Resources, which are extremely important for [ICON_FOOD] growth and [ICON_HAPPINESS_1] Happiness. (Note: Many resources require you to have chopped a forest or jungle first, which requires other Technologies.)"/>
+			<Where Tag="TXT_KEY_TECH_CALENDAR_HELP"/>
+		</Update>
+		
+		<!-- Writing-->
+		<Update>
+			<Set Text="[NEWLINE][TAB][TAB]'By day write with your fingers; recite by night. Befriend the scroll, the palette. It pleases more than wine. Writing for him who knows it is better than all other professions'. From the Instruction in Letter Writing Papyrus from Lansing, New Kingdom.[NEWLINE]The Egyptian language is part of the Afroasiatic tradition where roots of words are extremely important and there are distinguishing genders. The use of hieroglyphs began around 3000 BCE, and went through considerable change over time. At first pictures directly represented words, but this shifted to pictures representing sounds. Egyptian hieroglyphics were translated with the finding of the Rosetta stone in 1822, although it took time to fully decipher the language."/>
+			<Where Tag="TXT_KEY_TECH_WRITING_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="Allows you to build the first [ICON_RESEARCH] Science building, the [COLOR_POSITIVE_TEXT]Library[ENDCOLOR], helping your empire research new technologies more quickly."/>
+			<Where Tag="TXT_KEY_TECH_WRITING_HELP"/>
+		</Update>
+		
+		<!-- Trapping-->
+		<Update>
+			<Set Text="[NEWLINE][TAB][TAB]'On a beautiful day we are on our way to the marshes in order to catch fowl and innumerable fish in the two waters… Our field goddess is satisfied, we shall bring back prey. We shall trap prey among the thousands of fowl'. Text from the Middle Kingdom.[NEWLINE]Around the Nile there was a high diversity of animals that could be trapped and used for sustenance. Trapping was both popular as a way of providing food and as an elite past time. Nets were created to catch birds along the river, and large animals like crocodiles would be speared."/>
+			<Where Tag="TXT_KEY_TECH_TRAPPING_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="Allows your Workers to construct [COLOR_POSITIVE_TEXT]Camps[ENDCOLOR] on sources of [ICON_RES_DEER] Deer, [ICON_RES_IVORY] Ivory and [ICON_RES_FUR] Fur. Also allows Workers to construct the [COLOR_POSITIVE_TEXT]Trading Post[ENDCOLOR], which increases the [ICON_GOLD] Gold output of map tiles."/>
+			<Where Tag="TXT_KEY_TECH_TRAPPING_HELP"/>
+		</Update>
+		
+		<!-- The Wheel-->
+		<Update>
+			<Set Text="[NEWLINE][TAB][TAB]'The horses were yoked up, the chariot was mounted, the terror of his majesty reached to the end of the Asiatics, every heart was heavy with the fear of him'. From the Piankhi Stela, New Kingdom[NEWLINE]The first evidence of the wheel in Egypt is in conjunction with the introduction of the chariots in 1700 BCE. Egyptians were the first to design wheels using spokes instead of a solid piece. Birch was used to create the axle and wheel, with the pole made of willow and the spokes of plum. Wheeled vehicles were also used during funerals."/>
+			<Where Tag="TXT_KEY_TECH_THE_WHEEL_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Chariot Archer[ENDCOLOR], a fast and powerful ranged unit which requires [ICON_RES_HORSE] Horses. Also allows Workers to construct [COLOR_POSITIVE_TEXT]Roads[ENDCOLOR], which allow units to move across the map faster and provide extra [ICON_GOLD] Gold when connecting cities to your capital."/>
+			<Where Tag="TXT_KEY_TECH_THE_WHEEL_HELP"/>
+		</Update>
+		
+		<!-- Masonry-->
+		<Update>
+			<Set Text="[NEWLINE][TAB][TAB]'The stone was being carved from this western mountain as it had been done before. These stones fell in such a way that they broke and not a pebble was left'. From the Stela of Meri , Second Intermediate Period.[NEWLINE]Most structures in Egypt were built using sun baked mud brick, with only elite buildings made out of stone. Archaeological work has shown that masons were very careful in their planning and construction. Masons used chisels, hammerstones, and copper saws to create their buildings with forces of drafted laborers to aid in construction."/>
+			<Where Tag="TXT_KEY_TECH_MASONRY_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="Allows you to build [COLOR_POSITIVE_TEXT]Walls[ENDCOLOR], which greatly improve the defense of cities from attack. Also allows Workers to construct Quarries on [ICON_RES_MARBLE] [COLOR_POSITIVE_TEXT]Marble[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Clear Marshes[ENDCOLOR], allowing other improvements to be constructed."/>
+			<Where Tag="TXT_KEY_TECH_MASONRY_HELP"/>
+		</Update>
+		
+		<!-- Bronze Working-->
+		<Update>
+			<Set Text="'Khikhet, the great seat of Amon, his horizon in the west; all its doors of real cedar, wrought with bronze'. From Thutmose III's Inscriptions of Thuity, New Kingdom. [NEWLINE]The oldest bronze artifacts date to the Old Kingdom and were a major improvement in weaponry due to the ease of use. The earliest products of Bronze were weapons and tools, although it continued to be used until 1000 BCE for smaller domestic items."/>
+			<Where Tag="TXT_KEY_TECH_BRONZE_WORKING_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="Bronze is a metal 'alloy' (mixture) of copper and tin. The resulting material is harder and tougher than either of the original metals and it is easier to melt and cast (e.g., pour into molds to make spear tips and other useful items). Copper was probably first used in Egypt before 5,000 BC. The first evidence of bronze appears some 1,300 years later in the form of a bronze rod found in a pyramid dating from 3700 BC. Bronze appeared in Asia much later, around 1,500 BC, and in the Americas later still, between 100-200 AD."/>
+			<Where Tag="TXT_KEY_TECH_BRONZE_WORKING_HELP"/>
+		</Update>
+		
+		<!-- Optics-->
+		<Update>
+			<Set Text="[NEWLINE][TAB][TAB]'It is employed, also, very extensively in the manufacture of glass, as we shall more fully mention on the appropriate occasion'. From Pliny the Elder, 23 to 79 CE.[NEWLINE]The earliest optics found date to 700 BCE, although a number of glass lenses have been found in Egypt. It is questioned whether these qualify as true lenses or are merely decorative. The earliest use of clear lens like glass in Egypt is documented at the beginning of the New Kingdom."/>
+			<Where Tag="TXT_KEY_TECH_OPTICS_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="Allows land units to [COLOR_POSITIVE_TEXT]Embark[ENDCOLOR] onto water tiles and travel the ocean. Also allows you to build the [COLOR_POSITIVE_TEXT]Lighthouse[ENDCOLOR] in coastal cities, improving [ICON_FOOD] Food output from water tiles, speeding their growth."/>
+			<Where Tag="TXT_KEY_TECH_OPTICS_HELP"/>
+		</Update>
+		
+		<!-- Philosophy-->
+		<Update>
+			<Set Text="[NEWLINE][TAB][TAB]'There is only one good, knowledge, and one evil, ignorance.'[NEWLINE][TAB][TAB]  - Socrates[NEWLINE][TAB]"/>
+			<Where Tag="TXT_KEY_TECH_PHILOSOPHY_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Temple[ENDCOLOR], which increases the [ICON_CULTURE] Culture output of a city. Also provides new [ICON_RESEARCH] Science-related abilities, like the [COLOR_POSITIVE_TEXT]Research Agreement[ENDCOLOR], which is a special deal that may be made with other players in the game."/>
+			<Where Tag="TXT_KEY_TECH_PHILOSOPHY_HELP"/>
+		</Update>
+		
+		<!-- Horseback Riding-->
+		<Update>
+			<Set Text="[NEWLINE][TAB][TAB]'Horses brought from the field, they forget their mothers. Yoked they go up and down on all his majesty's errands. They become like those that bore them, that stand in the stable. They do their utmost for fear of a beating.' Papyrus from the New Kingdom.[NEWLINE]Horses were introduced into Egypt through the Hyksos, evidenced by the first presence of horse skeletal material being found at Hyksos sites such as Avaris. A stela from the Second Intermediate period discusses Amenhotep II's love for horses, and the earliest representations of horses come from the tomb of Ahmose at the end of the second intermediate. Horses were important to warfare, as they allowed the introduction of the chariot, and were primarily used by the elite."/>
+			<Where Tag="TXT_KEY_TECH_HORSEBACK_RIDING_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Horseman[ENDCOLOR], a fast and powerful mounted unit."/>
+			<Where Tag="TXT_KEY_TECH_HORSEBACK_RIDING_HELP"/>
+		</Update>
+		
+		<!-- Mathematics-->
+		<Update>
+			<Set Text="'I shall take one third of all the corn and of all the plants growing there, one third representing my part as owner of the fields. We shall divide the remainder into 6 parts, to wit: 5 parts for you and your companions and 1 part for me'. From Lease of land document from Late Period.[NEWLINE]Written evidence of mathematics dates back to at least 3000 BCE with ivory labels found at a tomb in Abydos. While there is little direct evidence of math, it is deduced from the evidence of calculations of slope of mastabas. The first true mathematical document dates to the 12th dynasty's Mathematical Papyri."/>
+			<Where Tag="TXT_KEY_TECH_MATHEMATICS_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Catapult[ENDCOLOR], a powerful siege weapon. Also allows you to build the [COLOR_POSITIVE_TEXT]Courthouse[ENDCOLOR], a building which reduces the [ICON_HAPPINESS_4] Unhappiness from [ICON_OCCUPIED] Occupied Cities."/>
+			<Where Tag="TXT_KEY_TECH_MATHEMATICS_HELP"/>
+		</Update>
+		
+		<!-- Construction-->
+		<Update>
+			<Set Text="'The layer of brick who brings the field, the very numerous; building with ready fingers, skilled in his duty, causing vigilance among the conquered, who hear the sayings of this official skilful in building of works'. From Inscription in the tomb of Rekhmire, New Kingdom. [NEWLINE]Egyptians undertook many large and complex construction projects that required not only the work of masons and engineers, but also a large labor force. Domestic buildings were made using sticks and reeds, with more permanent structures of mud brick, and elite structures in stone. Laborers were drafted into service."/>
+			<Where Tag="TXT_KEY_TECH_CONSTRUCTION_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="Allows Workers to construct [COLOR_POSITIVE_TEXT]Lumbermills[ENDCOLOR] on forested map tiles, increasing their [ICON_PRODUCTION] Production.  Also allows you to build the [COLOR_POSITIVE_TEXT]Colosseum[ENDCOLOR], which improves [ICON_HAPPINESS_1] Happiness in the empire, which in turn helps your city growth and makes [ICON_GOLDEN_AGE] Golden Ages more likely."/>
+			<Where Tag="TXT_KEY_TECH_CONSTRUCTION_HELP"/>
+		</Update>
+		
+		<!-- Iron Working-->
+		<Update>
+			<Set Text="'The tribute of the chief of Tinay: a silver vessel of the work of the Keftyew, together with vessels of iron'. From Annals of Thutmose III, New Kingdom.[NEWLINE]Although iron is readily available throughout Egypt it was rarely used as a metal and instead was employed primarily as a coloring agent. Iron was primarily imported when it was used as a tool or weapon. However in the New Kingdom there was a small amount of iron working done locally."/>
+			<Where Tag="TXT_KEY_TECH_IRON_WORKING_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="Reveals [ICON_RES_IRON] [COLOR_POSITIVE_TEXT]Iron[ENDCOLOR] and allows you to build the [COLOR_POSITIVE_TEXT]Swordsman[ENDCOLOR], an extremely powerful melee unit which requires it."/>
+			<Where Tag="TXT_KEY_TECH_IRON_WORKING_HELP"/>
+		</Update>
+		
+		<!-- Engineering-->
+		<Update>
+			<Set Text="'I inspected the great monuments which he made, great pylons on its either side of fine limestone of Ayan; august flagstones were erected at the double façade of the temple of new cedar of the best of the Terraces; their tops were of electrum'. From Bioarchaeology of Ineni the Architect from the New Kingdom[NEWLINE]Engineering in Egypt is evident in the Old Kingdom with the construction of the pyramids. These structures required careful planning and mathematical skill in order to build them. Drawings found in the quarries and marks upon mortar in the mastabas prove that major planning and forethought went into construction."/>
+			<Where Tag="TXT_KEY_TECH_ENGINEERING_QUOTE"/>
+		</Update>
+		<Update>
+			<Set Text="Allows Workers to construct [COLOR_POSITIVE_TEXT]Forts[ENDCOLOR] on map tiles, increasing the defense of units stationed there. Additionally, bridges are automatically added to roads which cross rivers, allowing units to pass over them without slowing down."/>
+			<Where Tag="TXT_KEY_TECH_ENGINEERING_HELP"/>
+		</Update>
+	</Language_en_US>
+
+	<!-- Title description change-->
+	<Update>
+		<Set Text="{1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		<Where Tag="TXT_KEY_LIBERTY_TITLE"/>
+	</Update>
+	<Update>
+		<Set Text="{1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		<Where Tag="TXT_KEY_TRADITION_TITLE"/>
+	</Update>
+	<Update>
+		<Set Text="{1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		<Where Tag="TXT_KEY_HONOR_TITLE"/>
+	</Update>
+	<Update>
+		<Set Text="{1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		<Where Tag="TXT_KEY_PIETY_TITLE"/>
+	</Update>
+	<Update>
+		<Set Text="{1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		<Where Tag="TXT_KEY_PATRONAGE_TITLE"/>
+	</Update>
+	<Update>
+		<Set Text="{1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		<Where Tag="TXT_KEY_COMMERCE_TITLE"/>
+	</Update>
+	<Update>
+		<Set Text="{1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		<Where Tag="TXT_KEY_RATIONALISM_TITLE"/>
+	</Update>
+	<Update>
+		<Set Text="{1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		<Where Tag="TXT_KEY_FREEDOM_TITLE"/>
+	</Update>
+	<Update>
+		<Set Text="{1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		<Where Tag="TXT_KEY_ORDER_TITLE"/>
+	</Update>
+	<Update>
+		<Set Text="{1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		<Where Tag="TXT_KEY_AUTOCRACY_TITLE"/>
+	</Update>
+	
+</GameData>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/7/2011 3:01:33 PM -->
+<GameData>
+	<Civilizations>
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_AMERICA"/>
+		</Update>
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_ARABIA"/>
+		</Update>
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_AZTEC"/>
+		</Update>
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_CHINA"/>
+		</Update>
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_EGYPT"/>			
+		</Update>				
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_ENGLAND"/>					
+		</Update>						
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_FRANCE"/>							
+		</Update>								
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_GERMANY"/>									
+		</Update>										
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_GREECE"/>											
+		</Update>												
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_INDIA"/>													
+		</Update>														
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_IROQUOIS"/>															
+		</Update>																
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_JAPAN"/>																	
+		</Update>																		
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_OTTOMAN"/>																			
+		</Update>																		
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_ROME"/>																			
+		</Update>																			
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_SIAM"/>																			
+		</Update>																			
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_PERSIA"/>																																																																																		
+		</Update>
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_SONGHAI"/>																						
+		</Update>
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_RUSSIA"/>
+		</Update>
+		<Update>
+			<Set Playable="0"/>
+			<Where Type="CIVILIZATION_MONGOL"/>
+		</Update>
+																											
+	</Civilizations>
+  
+</GameData>

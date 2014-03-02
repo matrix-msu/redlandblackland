@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2011 2:00:49 PM -->
+<GameData>
+	<Resources>
+		<Row>
+			<Type>RESOURCE_MYI</Type>
+			<TechCityTrade>TECH_AGRICULTURE</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_MYI</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_MYI_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_MYI_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_BONUS</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_IRON</ArtDefineTag>
+			<ArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY</ArtDefineTagHeavy>
+			<AltArtDefineTag>ART_DEF_RESOURCE_IRON_MARSH</AltArtDefineTag>
+			<AltArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY_MARSH</AltArtDefineTagHeavy>
+			<AITradeModifier>10</AITradeModifier>
+			<PlacementOrder>4</PlacementOrder>
+			<ConstAppearance>50</ConstAppearance>
+			<MinAreaSize>10</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>25</RandApp1>
+			<RandApp2>25</RandApp2>
+			<Player>100</Player>
+			<Hills>true</Hills>
+			<Flatlands>true</Flatlands>
+			<NoRiverSide>true</NoRiverSide>
+			<IconString>[ICON_RES_MYI]</IconString>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+		</Row>
+	</Resources>
+	<Resource_YieldChanges>
+		<Row>
+			<ResourceType>RESOURCE_MYI</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Resource_YieldChanges>
+	<Resource_Flavors>
+		<Row>
+			<ResourceType>RESOURCE_MYI</ResourceType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Resource_Flavors>
+	<Resource_TerrainBooleans>
+		<Row>
+			<ResourceType>RESOURCE_MYI</ResourceType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MYI</ResourceType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MYI</ResourceType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MYI</ResourceType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MYI</ResourceType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+		</Row>
+	</Resource_TerrainBooleans>
+	<Resource_QuantityTypes>
+		<Row>
+			<ResourceType>RESOURCE_MYI</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MYI</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+	</Resource_QuantityTypes>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_RESOURCE_MYI">
+			<Text>Luxury Iron</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MYI_HELP">
+			<Text>Used for Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MYI">
+			<Text>MYI</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MYI_TEXT">
+			<Text>
+				MYI, as native MYI, is one of the few metals to occur naturally as an un-compounded mineral. MYI was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MYI_TITLE1">
+			<Text>Technology Required to See</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MYI_TITLE2">
+			<Text>Location</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MYI_TITLE3">
+			<Text>Improvement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MYI_TITLE4">
+			<Text>Yield Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MYI_TITLE5">
+			<Text>Allows</Text>
+		</Row>
+	</Language_en_US>
+	<Improvement_ResourceTypes>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_MYI</ResourceType>
+		</Row>
+	</Improvement_ResourceTypes>
+	<IconFontMapping>
+		<Row>
+			<IconName>ICON_RES_MYI</IconName>
+			<IconMapping>10</IconMapping>
+		</Row>
+	</IconFontMapping>
+</GameData>

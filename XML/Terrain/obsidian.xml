@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2011 1:36:08 PM -->
+<GameData>
+	<Resources>
+		<Row>
+			<Type>RESOURCE_OBSIDIAN</Type>
+			<Description>TXT_KEY_RESOURCE_OBSIDIAN</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_OBSIDIAN_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_OBSIDIAN_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_GEMS</ArtDefineTag>
+			<AltArtDefineTag>ART_DEF_RESOURCE_GEMS</AltArtDefineTag>
+			<AITradeModifier>10</AITradeModifier>
+			<PlacementOrder>4</PlacementOrder>
+			<ConstAppearance>50</ConstAppearance>
+			<MinAreaSize>10</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>25</RandApp1>
+			<RandApp2>25</RandApp2>
+			<Player>100</Player>
+			<Hills>true</Hills>
+			<IconString>[ICON_RES_OBSIDIAN]</IconString>
+			<PortraitIndex>13</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+		</Row>
+	</Resources>
+	<Resource_YieldChanges>
+		<Row>
+			<ResourceType>RESOURCE_OBSIDIAN</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Resource_YieldChanges>
+	<Resource_Flavors>
+		<Row>
+			<ResourceType>RESOURCE_OBSIDIAN</ResourceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Resource_Flavors>
+	<Resource_TerrainBooleans>
+		<Row>
+			<ResourceType>RESOURCE_OBSIDIAN</ResourceType>
+			<TerrainType>TERRAIN_HILL</TerrainType>
+		</Row>
+	</Resource_TerrainBooleans>
+	<Resource_QuantityTypes>
+		<Row>
+			<ResourceType>RESOURCE_OBSIDIAN</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_OBSIDIAN</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+	</Resource_QuantityTypes>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_RESOURCE_OBSIDIAN">
+			<Text>Obsidian</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_OBSIDIAN_HELP">
+			<Text>Used for Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_OBSIDIAN">
+			<Text>OBSIDIAN</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_OBSIDIAN_TEXT">
+			<Text>
+				OBSIDIAN, as native OBSIDIAN, is one of the few metals to occur naturally as an un-compounded mineral. OBSIDIAN was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_OBSIDIAN_TITLE1">
+			<Text>Technology Required to See</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_OBSIDIAN_TITLE2">
+			<Text>Location</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_OBSIDIAN_TITLE3">
+			<Text>Improvement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_OBSIDIAN_TITLE4">
+			<Text>Yield Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_OBSIDIAN_TITLE5">
+			<Text>Allows</Text>
+		</Row>
+	</Language_en_US>
+	<Improvement_ResourceTypes>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_OBSIDIAN</ResourceType>
+		</Row>
+	</Improvement_ResourceTypes>
+	<IconFontMapping>
+		<Row>
+			<IconName>ICON_RES_OBSIDIAN</IconName>
+			<IconMapping>23</IconMapping>
+		</Row>
+	</IconFontMapping>
+  
+</GameData>

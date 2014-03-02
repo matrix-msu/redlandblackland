@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/19/2011 2:17:02 AM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_ARCHER</Class>
+			<Type>UNIT_MEDJAYARCHER</Type>
+			<Combat>6</Combat>
+			<RangedCombat>15</RangedCombat>
+			<Cost>40</Cost>
+			<Moves>2</Moves>
+			<Range>3</Range>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_MEDJAYARCHER</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_MEDJAYARCHER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_MEDJAYARCHER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_MEDJAYARCHER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_MECHINERY</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_CROSSBOWMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_ARCHER</UnitArtInfo>
+			<UnitFlagIconOffset>6</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+		</Row>
+	</Units>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_MEDJAY</CivilizationType>
+			<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
+			<UnitType>UNIT_MEDJAYARCHER</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_MEDJAYARCHER</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_MEDJAYARCHER</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT__MEDJAYARCHER</UnitType>
+			<UnitClassType>UNITCLASS_CROSSBOWMAN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNITC_MEDJAYARCHER</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MEDJAYARCHER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MEDJAYARCHER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_MEDJAYARCHER">
+			<Text>Medjay Archer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MEDJAYARCHER">
+			<Text>"When his majesty took action against the	Asiatic sand-dwellers, his majesty made an army of many tens of thousands...Medja-Nubians" The Medjay archers were fierce warriors known throughout	Northern Africa. Once nomadic herdsmen, they were drafted by the Egyptians to be their personal bodyguards and police force during the New Kingdom.
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/21/2011 12:31:25 PM -->
+<GameData>
+	<Language_en_US>
+		<Update>
+			<Set Text="It is hard to find worthy friends in this world. I'd like to make a public Trade Alliance, informing the other empires of the bond between our peoples. What do you say?"/>
+			<Where Tag="TXT_KEY_DEC_FRIENDSHIP_1"/>
+		</Update>
+		<Update>
+			<Set Text="Great leader, would you care to make a Trade Alliance to the world? My hope is that we can build a long-lasting bond between our two empires."/>
+			<Where Tag="TXT_KEY_DEC_FRIENDSHIP_2"/>
+		</Update>
+		<Update>
+			<Set Text="Let us plant the seeds of a bright future by making a Trade Alliance to the world. What say you?"/>
+			<Where Tag="TXT_KEY_DEC_FRIENDSHIP_3"/>
+		</Update>
+		<Update>
+			<Set Text="This world can be cruel. Only with the assistance of others can we overcome it. Shall we announce to the world our Trade Alliance?"/>
+			<Where Tag="TXT_KEY_DEC_FRIENDSHIP_4"/>
+		</Update>
+		<Update>
+			<Set Text="Trade Alliance"/>
+			<Where Tag="TXT_KEY_DIPLOMACY_FRIENDSHIP_ADV_QUEST"/>
+		</Update>
+		<Update>
+			<Set Text="A 'Trade Alliance' between two or more players means, in the most basic sense that these players now have a mutual interest in looking out for each other (typically this involves becoming trade partners and sharing resources). Players may also choose to establish 'blocks' of friendship by forming friendships with multiple players in order to ensure long-term safety and economic stability."/>
+			<Where Tag="TXT_KEY_DIPLOMACY_FRIENDSHIP_HEADING3_BODY"/>
+		</Update>
+		<Update>
+			<Set Text="Trade Alliance"/>
+			<Where Tag="TXT_KEY_DIPLOMACY_FRIENDSHIP_HEADING3_TITLE"/>
+		</Update>
+		<Update>
+			<Set Text="{1_PlayerName} has made a Trade Alliance with {2_PlayerName}"/>
+			<Where Tag="TXT_KEY_NTFN_DOF"/>
+		</Update>
+		<Update>
+			<Set Text="{1_CivName:textkey} and {2_CivName:textkey} have made a public Trade Alliance, forging a strong bond between the two empires."/>
+			<Where Tag="TXT_KEY_NOTIFICATION_DOF"/>
+		</Update>
+		<Update>
+			<Set Text="Your Trade Alliance with {1_LeaderName} has run its course and will need to be renewed."/>
+			<Where Tag="TXT_KEY_NOTIFICATION_FRIENDSHIP_EXPIRED"/>
+		</Update>
+		<Update>
+			<Set Text="Trade Alliance Has Expired"/>
+			<Where Tag="TXT_KEY_NOTIFICATION_FRIENDSHIP_EXPIRED_S"/>
+		</Update>
+		<Update>
+			<Set Text="Shall we make a joint Trade Alliance?"/>
+			<Where Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DEC_FRIENDSHIP"/>
+		</Update>
+		<Update>
+			<Set Text="[COLOR_POSITIVE_TEXT]We have made a public Trade Alliance![ENDCOLOR]"/>
+			<Where Tag="TXT_KEY_DIPLO_DOF"/>
+		</Update>
+		<Update>
+			<Set Text="[COLOR_NEGATIVE_TEXT]You have made a Trade Alliance with one of their enemies![ENDCOLOR]"/>
+			<Where Tag="TXT_KEY_DIPLO_HUMAN_DOF_WITH_ENEMY"/>
+		</Update>
+		<Update>
+			<Set Text="[COLOR_NEGATIVE_TEXT]You have Denounced a leader they made a Trade Alliance with![ENDCOLOR]"/>
+			<Where Tag="TXT_KEY_DIPLO_HUMAN_DENOUNCED_FRIEND"/>
+		</Update>
+		<Update>
+			<Set Text="[COLOR_NEGATIVE_TEXT]You refused a request made by this player after making a Trade Alliance![ENDCOLOR]"/>
+			<Where Tag="TXT_KEY_DIPLO_REFUSED_REQUESTS"/>
+		</Update>
+		
+	</Language_en_US>
+</GameData>

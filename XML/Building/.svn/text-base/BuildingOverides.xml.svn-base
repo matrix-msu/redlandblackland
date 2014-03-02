@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/12/2011 9:43:07 PM -->
+<GameData>
+	<Language_en_US>
+		<Update>
+			<Set Text="Royal Court"/>
+			<Where Tag="TXT_KEY_BUILDING_COURTHOUSE"/>
+		</Update>
+		<Update>
+			<Set Text="Cedar riverboat"/>
+			<Where Tag="TXT_KEY_UNIT_TRIREME"/>
+		</Update>
+		<Update>
+			<Set Text="Cedar Sea-farer"/>
+			<Where Tag="TXT_KEY_UNIT_WORK_BOAT"/>
+		</Update>
+		
+	</Language_en_US>
+	
+	
+	<Units>
+		<Update>
+			<Where Type="UNIT_SETTLER"/>
+			<Set HurryCostModifier="999999"/>
+		</Update>
+	</Units>
+	
+	<Technologies>
+		<Update>
+			<Where Type ="TECH_SAILING"/>
+			<Set AllowsEmbarking="true"/>
+		</Update>
+	</Technologies>
+	
+	<Buildings>
+		<Update>
+			<Set PrereqTech ="TECH_WRITING"/>
+			<Where Type="BUILDING_TEMPLE"/>
+		</Update>
+		<!--<Update>
+			<Set PrereqTech ="TECH_WRITING"/>
+			<Set BuildingClass = "BUILDINGCLASS_TOMB"/>
+			<Where Type="BUILDING_BURIAL_TOMB"/>
+		</Update>-->
+		<Update>
+			<Set PrereqTech ="TECH_MATHEMATICS"/>
+			<Where Type="BUILDING_MARKET"/>
+		</Update>
+		<Update>
+			<Set PrereqTech ="TECH_ENGINEERING"/>
+			<Where Type="BUILDING_LIBRARY"/>
+		</Update>
+		<Update>
+			<Set PrereqTech ="TECH_MACHINERY"/>
+			<Where Type="BUILDING_AQUEDUCT"/>
+		</Update>
+		<Update>
+			<Set PrereqTech ="TECH_MACHINERY"/>
+			<Where Type="BUILDING_COLOSSEUM"/>
+		</Update>
+		<Update>
+			<Set PrereqTech ="TECH_OPTICS"/>
+			<Where Type="BUILDING_BARRACKS"/>
+		</Update>
+		<Update>
+			<Set PrereqTech ="TECH_OPTICS"/>
+			<Where Type="BUILDING_ARMORY"/>
+		</Update>
+		<Update>
+			<Set PrereqTech ="TECH_MATHEMATICS"/>
+			<Where Type="BUILDING_MONASTERY"/>
+		</Update>
+		<Update>
+			<Set PrereqTech ="TECH_ENGINEERING"/>
+			<Where Type="BUILDING_PYRAMID"/>
+		</Update>
+		<Update>
+			<Set Cost ="450"/>
+			<Where Type="BUILDING_PYRAMID"/>
+		</Update>
+		<Update>
+			<Set PrereqTech ="TECH_PHYSICS"/>
+			<Where Type="BUILDING_HEROIC_EPIC"/>
+		</Update>
+		<Update>
+			<Set PrereqTech ="TECH_PHYSICS"/>
+			<Where Type="BUILDING_GREAT_LIGHTHOUSE"/>
+		</Update>
+		<Update>
+			<Set PrereqTech ="TECH_PHYSICS"/>
+			<Where Type="BUILDING_STONEHENGE"/>
+		</Update>
+		<Update>
+			<Set PrereqTech ="TECH_PHYSICS"/>
+			<Where Type="BUILDING_GREAT_LIBRARY"/>
+		</Update>
+		<Update>
+			<Set PrereqTech ="TECH_PHYSICS"/>
+			<Where Type="BUILDING_COLOSSUS"/>
+		</Update>
+		<Update>
+			<Set PrereqTech ="TECH_PHYSICS"/>
+			<Where Type="BUILDING_HANGING_GARDEN"/>
+		</Update>
+		<Update>
+			<Set PrereqTech ="TECH_PHYSICS"/>
+			<Where Type="BUILDING_GREAT_WALL"/>
+		</Update>
+	</Buildings>
+	<Building_ResourceQuantityRequirements>
+		<Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<ResourceType>RESOURCE_LIMESTONE</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Building_ResourceQuantityRequirements>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_NEWTYPE</Type>
+			<DefaultBuilding>BUILDING_NEW</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_NEWTYPE</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_NEW</Type>
+			<BuildingClass>BUILDINGCLASS_NEWTYPE</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>100</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_BURIAL_TOMB_HELP</Help>
+			<Description>TXT_KEY_BUILDING_BURIAL_TOMB_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BURIAL_TOMB_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BURIAL_TOMB_STRATEGY</Strategy>
+			<ArtDefineTag>BURIAL_TOMB</ArtDefineTag>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<CapturePlunderModifier>100</CapturePlunderModifier>
+			<Culture>2</Culture>
+			<Happiness>2</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>55</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_NEW</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NEW</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+</GameData>

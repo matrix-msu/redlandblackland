@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/7/2011 1:23:26 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- Predynastic -->
+		<Row Tag="TXT_KEY_CIV_THICON_ADJECTIVE">
+			<Text>Thinis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_THICON_DESC">
+			<Text>Thinis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_THICON_SHORT_DESC">
+			<Text>Thinis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_THICON_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_THICON_TEXT_1">
+			<Text>
+				Welcome to Egypt, a land of farming communities and small villages. They have grown around the fertile land of the Nile, and throughout the 5th and 4th millennia BCE they have begun to form trade networks and a thriving economy. Increasing ceramic production and craft specialization provides evidence for urban growth and development. With the rise of social complexity came cultural expansion and consolidation of the smaller communities into larger chiefdoms. The process that caused the amalgamation of pre-state communities into civilization is not well understood, and there is debate over whether it was caused by trading alliances, competition or a combination of both.[NEWLINE][NEWLINE]It is up to you, Menes, to unite the disparate groups who have settled along the Nile and create your Kingdom. The task before you will not be easy, you are not the only leader with goals of creating a unified Egypt. Both the North and South have begun to form larger alliances. Conquer all others, unite Upper and Lower Egypt and take your rightful place as the first ruler of this civilization.
+			</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CIV_NAQADA_ADJECTIVE">
+			<Text>Fayum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_NAQADA_DESC">
+			<Text>Fayum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_NAQADA_SHORT_DESC">
+			<Text>Fayum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NAQADA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NAQADA_TEXT_1">
+			<Text>
+				This is the Predynastic Period! And These are dummy texts.
+			</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CIV_BADARIAN_ADJECTIVE">
+			<Text>Badari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_BADARIAN_DESC">
+			<Text>Badari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_BADARIAN_SHORT_DESC">
+			<Text>Badari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BADARIAN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BADARIAN_TEXT_1">
+			<Text>
+				This is the Predynastic Period! And These are dummy texts.
+			</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CIV_BUTOMAADI_ADJECTIVE">
+			<Text>Qift</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_BUTOMAADI_DESC">
+			<Text>Qift</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_BUTOMAADI_SHORT_DESC">
+			<Text>Qift</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUTOMAADI_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUTOMAADI_TEXT_1">
+			<Text>
+				This is the Predynastic Period! And These are dummy texts.
+			</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CIV_ELOMARI_ADJECTIVE">
+			<Text>Nekhen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_ELOMARI_DESC">
+			<Text>Nekhen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_ELOMARI_SHORT_DESC">
+			<Text>Nekhen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ELOMARI_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ELOMARI_TEXT_1">
+			<Text>
+				This is the Predynastic Period! And These are dummy texts.
+			</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CIV_TASIAN_ADJECTIVE">
+			<Text>Maadi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TASIAN_DESC">
+			<Text>Maadi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TASIAN_SHORT_DESC">
+			<Text>Maadi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TASIAN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TASIAN_TEXT_1">
+			<Text>
+				This is the Predynastic Period! And These are dummy texts.
+			</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MENES_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MENES_TEXT_1">
+			<Text>
+				dummy..............
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MENES_LIVED">
+			<Text>25 - 62 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MENES_NAME">
+			<Text>Narmer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MENES_SUBTITLE">
+			<Text>Leader of the Thinis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENES">
+			<Text>Narmer</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AHA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AHA_TEXT_1">
+			<Text>
+				dummy..............
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AHA_LIVED">
+			<Text>25 - 62 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AHA_NAME">
+			<Text>Msrah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AHA_SUBTITLE">
+			<Text>Leader of the Fayum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AHA">
+			<Text>Msrah</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SCORPION_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SCORPION_TEXT_1">
+			<Text>
+				dummy..............
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SCORPION_LIVED">
+			<Text>25 - 62 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SCORPION_NAME">
+			<Text>Ebo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SCORPION_SUBTITLE">
+			<Text>Leader of the Badari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SCORPION">
+			<Text>Ebo</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SEBI_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SEBI_TEXT_1">
+			<Text>
+				dummy..............
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SEBI_LIVED">
+			<Text>25 - 62 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SEBI_NAME">
+			<Text>Sadiki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SEBI_SUBTITLE">
+			<Text>Leader of the Qift</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SEBI">
+			<Text>Sadiki</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RAMI_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RAMI_TEXT_1">
+			<Text>
+				dummy..............
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RAMI_LIVED">
+			<Text>25 - 62 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RAMI_NAME">
+			<Text>Chibale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RAMI_SUBTITLE">
+			<Text>Leader of the Nekhen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI">
+			<Text>Chibale</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NEBBIT_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NEBBIT_TEXT_1">
+			<Text>
+				dummy..............
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NEBBIT_LIVED">
+			<Text>25 - 62 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NEBBIT_NAME">
+			<Text>Akila</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NEBBIT_SUBTITLE">
+			<Text>Leader of the Maadi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEBBIT">
+			<Text>Akila</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CITYSTATE_YEBUE">
+			<Text>Yebu(Elephantine)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_YEBUE_ADJ">
+			<Text>Yebu(Elephantine)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_YEBUE">
+			<Text>Elephantine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_YEBUB">
+			<Text>Yebu(Buto)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_YEBUB_ADJ">
+			<Text>Yebu(Buto)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_YEBUB">
+			<Text>Buto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_ABYDOS">
+			<Text>Abydos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_ABYDOS_ADJ">
+			<Text>Abydos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SAQQARA">
+			<Text>Saqqara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SAQQARA_ADJ">
+			<Text>Saqqara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAQQARA">
+			<Text>Saqqara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_WDESERT">
+			<Text>Western Desert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TERRAIN_WDESERT_TEXT">
+			<Text>This is the WD.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

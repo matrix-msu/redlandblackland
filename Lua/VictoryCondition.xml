@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/12/2011 3:39:59 PM -->
+<Context ID="Show" Font="TwCenMT14" FontStyle="Base" Color="Beige" Color1="Black">
+	<Box Anchor="C,C" Offset="0,20" Size="Full,Full" Color="0,0,0,255" ConsumeMouse="1"/>
+	<Grid Anchor="C,C" Offset="0,0" Size="550,450" Padding="0,0" Style="Grid9DetailFive140" Hidden="0">
+		<Image Anchor="C,T" Offset="0,-33" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/topframe.dds" Size="512,128" />
+		<Image Anchor="C,B" Offset="0,-109" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/bottomframe.dds" Size="512,128" />
+		<Label ID ="VCHeadder" String="Scenario Victory Conditions" Anchor="C,T" Offset="0,19" Font="TwCenMT20" Color0="30.50.80.255" Color1="133.184.186.255" Color2="133.184.186.255" FontStyle="SoftShadow"/>
+		<Label ID="VCTitle" String ="Victory Title" Anchor ="C,T" Offset="0,60" Font="TwCenMT24" ColorSet="Beige_Black_Alpha" FontStyle="SoftShadow"/>
+		<Label ID="VCText" String = "Victory Condition Text" Anchor ="C,T" Offset="0,110" WrapWidth="450" Font="TwCenMT20" ColorSet="Beige_Black_Alpha"/>
+		<Button ID="CloseButton" Anchor="R,T" Offset="26,6" Size="32,32" Texture="CloseMinButtons.dds" TextureOffset="28,-2" ToolTip="TXT_KEY_ESC_TO_EXIT" />
+	</Grid>
+</Context>

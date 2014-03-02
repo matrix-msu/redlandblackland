@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3c43d11e-bc45-4014-a152-436ab00bb57d" version="1">
+  <Properties>
+    <Name>Red Land Black Land</Name>
+    <Stability>Beta</Stability>
+    <Description>Red Land is a robust Civilization V mod that covers the period from the Early Predynastic (ca. 4000 B.C.) to the end of the New Kingdom (ca. 525 B.C.). Players can explore the process of socio- historical change within the framework of ancient Egyptian history. Players will be able to explore why things happened as opposed to simply the facts of what happened.</Description>
+    <Authors>Ethan Watrall, Kathryn Meyers, Yue Lu</Authors>
+    <HideSetupGame>1</HideSetupGame>
+    <Homepage>www.matrix.msu.edu</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="6BAEABC9A6D2A49788FAF1C1488566CE" import="1">Art/background1.dds</File>
+    <File md5="657D5CCAC79F91865E72CCB6E45FC44F" import="1">Art/background2.dds</File>
+    <File md5="0CD71DAEAC8C9F7AEF7576E94B09274B" import="1">Art/background3.dds</File>
+    <File md5="7C34289B0CA6FD8842C420B43E1F7E82" import="1">Art/background4.dds</File>
+    <File md5="F1436C0EB0E89022D46F0424F42FB4E2" import="1">Art/background5.dds</File>
+    <File md5="3168704D5D561CB4F2AF2914DC18C2C9" import="1">Art/background6.dds</File>
+    <File md5="11CC27A87124AED6195D767E23184172" import="1">Art/background7.dds</File>
+    <File md5="F15521D7C4E405915F7B0FEAA57AFB1C" import="1">Art/background8.dds</File>
+    <File md5="0343AD1E533A0D7D2C6FECB04D3967D2" import="1">Art/background9.dds</File>
+    <File md5="55A3AC697837E7796E10F7BACEFC8EEC" import="1">Lua/DiploCorner.lua</File>
+    <File md5="AB9026B09A1DAE1FBF505C039EC05A07" import="1">Lua/DiploCorner.xml</File>
+    <File md5="C71D10C826A1A8D8880308E55ED1861D" import="0">Lua/ForceDoF.lua</File>
+    <File md5="0166B227DC0CEBB853D18D8CBE52F054" import="1">Lua/HLAButton.lua</File>
+    <File md5="58B25F82F1788026C2B260E0FCCF19DB" import="1">Lua/HLAButton.xml</File>
+    <File md5="8E055DBA217CB6E67F4D97E56F267C9E" import="0">Lua/HLAIntro.lua</File>
+    <File md5="451BB901CCECC6DE4B7705FE4920C122" import="0">Lua/HLAIntro.xml</File>
+    <File md5="CB79342BFE218F62DE6051C181D31BA3" import="0">Lua/HLANotification.lua</File>
+    <File md5="7ED3EDDB042C49BFB837503531005094" import="0">Lua/HLANotification.xml</File>
+    <File md5="FC2D10946B491D10A872F970EF5C7640" import="1">Lua/HLAPopup.lua</File>
+    <File md5="27DB16E95031F9A80C30997A797375B2" import="1">Lua/HLAPopup.xml</File>
+    <File md5="180E41D97FEAFEBECC2DEBD926A197A9" import="0">Lua/NewUnit.lua</File>
+    <File md5="08C244E0F9F7551B7DB6BA1C08A7673B" import="0">Lua/VictoryCondition.lua</File>
+    <File md5="B079FA2E66B3A135943ACF559650A3DC" import="0">Lua/VictoryCondition.xml</File>
+    <File md5="A67FDD5A0C60999B59C6CF5DAF947209" import="1">Lua/WhosWinningPopup.lua</File>
+    <File md5="34024CF605CC55DD160874640EE0873E" import="1">Lua/WhosWinningPopup.xml</File>
+    <File md5="A097289D3915595BE7FED2EC743F9D3B" import="1">Lua/WorldView.xml</File>
+    <File md5="8292403022EE0D5D850AED537C1EA6BB" import="0">Map/FirstIntermediateMap.Civ5Map</File>
+    <File md5="E50EA0036F8CC4B5F1423D8217AEEB64" import="0">Map/MiddleKingdomMap.Civ5Map</File>
+    <File md5="26CAACC5BDF018FD74F79643328493BA" import="0">Map/NewKingdomMap.Civ5Map</File>
+    <File md5="F426798750A588E25A7266215CDC363A" import="0">Map/OldKingdomMap.Civ5Map</File>
+    <File md5="92AE98365E631C0EA9F61AEB0E6B30B3" import="0">Map/PredynasticMap.Civ5Map</File>
+    <File md5="A39A50323CE8DE7793F006CC51E2033B" import="1">Map/PredynasticPeriod.Civ5Map</File>
+    <File md5="34E57C11F0B2087803EDB9ACEB65365B" import="0">Map/SecondIntermediateMap.Civ5Map</File>
+    <File md5="BA7B27AEF49DE140BEF72F9BEA8621FC" import="0">RLBLGameScreen.lua</File>
+    <File md5="9F68AD38D540F04725BFCC994F8A1170" import="0">RLBLGameScreen.xml</File>
+    <File md5="556E3F51B4661F207B6C08BCE98C2AF2" import="0">SQL/WLTK.sql</File>
+    <File md5="3ADEAABC226E0AC79904FE180923C00E" import="0">XML/BanTech/BanTech.xml</File>
+    <File md5="B372BFE75B499886508F5C1557430703" import="0">XML/Building/BuildingOverides.xml</File>
+    <File md5="002550261342433A00886DE08BABEDF4" import="0">XML/Civilizations/PreDynastic.xml</File>
+    <File md5="156C4B6034E8749DF0D566AB4999145D" import="0">XML/Civilizations/Ban_Civs.xml</File>
+    <File md5="A12ECB210C8F71C18A69F828FD9FB422" import="0">XML/Civilizations/FirstIntermediate.xml</File>
+    <File md5="5AC56A7B4314410164482D0A0A44125B" import="0">XML/Civilizations/MiddleKingdom.xml</File>
+    <File md5="496A915582639E22891BD764B61752B1" import="0">XML/Civilizations/NewKingdom.xml</File>
+    <File md5="FE7C14EAE09C1BA2D6D4D51549BE4412" import="0">XML/Civilizations/NKMinor.xml</File>
+    <File md5="58CE9D8BD3C4CCBED20CD8BD1BC5BF68" import="0">XML/Civilizations/OldKingdom.xml</File>
+    <File md5="38273D270C316211D390B8AEDB9C333E" import="0">XML/Civilizations/SecondIntermediate.xml</File>
+    <File md5="18A8DA4420E4275FD7FE5C90F64D76E4" import="0">XML/Leaders/MK_LD.xml</File>
+    <File md5="D6DADB497ED7BB99639FB8BC90B764E6" import="0">XML/Leaders/LeaderDialogue.xml</File>
+    <File md5="43937FFC03332DF9C6DA8FFBA2A0060F" import="1">XML/Leaders/LeaderDialogueIndex.xml</File>
+    <File md5="276091D9D4E4F8DD6469F0331B0A6E66" import="0">XML/Leaders/NK_LD.xml</File>
+    <File md5="F795D7FE411461D1B1CB3FE5A777CF32" import="0">XML/Leaders/OK_LD.xml</File>
+    <File md5="5442E1241B864B8E3350F537F0687F6E" import="0">XML/Leaders/PD_LD.xml</File>
+    <File md5="4D5D3D5425921B2BA060855045C38779" import="0">XML/Leaders/FI_LD.xml</File>
+    <File md5="2070326A6F91390D3A3D886F41F3094B" import="0">XML/Leaders/SI_LD.xml</File>
+    <File md5="2608AFB17BF31C205038C5FCBF61D450" import="0">XML/NewText/DescriptionChange.xml</File>
+    <File md5="71CE701299A770CC6C076B35721B5733" import="0">XML/NewText/DoFNewText.xml</File>
+    <File md5="F8EA399059727E8A4230EDBAF25AC739" import="0">XML/NewText/GameText.xml</File>
+    <File md5="E18C9788F7EF52A76F5181BE8D071EF7" import="0">XML/Terrain/bronze.xml</File>
+    <File md5="0F2F11AEB249CC643B36F48773854AA7" import="0">XML/Terrain/cedar.xml</File>
+    <File md5="B4FD189604D8EC5BFB45E0804F0F6D1C" import="0">XML/Terrain/chert.xml</File>
+    <File md5="28C988259399C44CB3F1FD54AA4D2AD5" import="0">XML/Terrain/copper.xml</File>
+    <File md5="FE1DFEB43DE29EE418C111F790769A60" import="0">XML/Terrain/donkey.xml</File>
+    <File md5="2AF1C5EB248B760FA973A1CAC6816601" import="0">XML/Terrain/limestone.xml</File>
+    <File md5="FF8AEBF727C56198D32C8EC4D296EC3C" import="0">XML/Terrain/myiron.xml</File>
+    <File md5="5C4BC35D1147E7F0AF3FE58975983301" import="0">XML/Terrain/obsidian.xml</File>
+    <File md5="951B8C5345ED4B4F476A013ABEC0C567" import="0">XML/Terrain/papyrus.xml</File>
+    <File md5="1B279FE94F93492E0196D0B20929D089" import="0">XML/Terrain/resin.xml</File>
+    <File md5="F86BC763BA469547078AEE937A41BC23" import="0">XML/Terrain/turquoise.xml</File>
+    <File md5="099B577747C5DEA0D4CD40A07EA008FE" import="0">XML/Unit/ChangedUnits.xml</File>
+    <File md5="EF3875F22671528DBD08170A0240D39E" import="0">XML/Unit/MedjayArcher.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/NewText/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Ban_Civs.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/WLTK.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/turquoise.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/copper.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/bronze.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/cedar.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/chert.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/donkey.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/papyrus.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/resin.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/obsidian.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/myiron.xml</UpdateDatabase>
+      <UpdateDatabase>XML/BanTech/BanTech.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/DescriptionChange.xml</UpdateDatabase>
+      <UpdateDatabase>XML\Civilizations\PreDynastic.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/OldKingdom.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/FirstIntermediate.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/SecondIntermediate.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/MiddleKingdom.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/NewKingdom.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/NKMinor.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/PD_LD.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/OK_LD.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/FI_LD.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/MK_LD.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/SI_LD.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/NK_LD.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/MedjayArcher.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/limestone.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Building/BuildingOverides.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/DoFNewText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/ChangedUnits.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/LeaderDialogue.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/LeaderDialogueIndex.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="Custom" file="RLBLGameScreen.xml">
+      <Name>Red Land Black Land</Name>
+      <Description>Red Land is a robust Civilization V mod that covers the period from the Early Predynastic (ca. 4000 B.C.) to the end of the New Kingdom (ca. 525 B.C.). Players can explore the process of socio- historical change within the framework of ancient Egyptian history. Players will be able to explore why things happened as opposed to simply the facts of what happened. </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/NewUnit.lua">
+      <Name>New Unit</Name>
+      <Description>New Unit</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/VictoryCondition.lua">
+      <Name>VC</Name>
+      <Description>Victory Condition</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/ForceDoF.lua">
+      <Name>DoF</Name>
+      <Description>Force DoF under some certain conditions</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/HLANotification.lua">
+      <Name>HLA notification</Name>
+      <Description>HLA notification</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/HLAIntro.lua">
+      <Name>HLA Introduction</Name>
+      <Description>HLA Introduction</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

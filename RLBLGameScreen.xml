@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context ColorSet="Beige_Black" Font="TwCenMT20" FontStyle="Shadow" >
+	<Box Anchor="C,C" Size="Full,Full" Color="0,0,0,255"/>
+
+
+	<Container ID="Welcome" Size="Full,Full" Anchor="C,C" Offset="0,0" Style="Grid9DetailFive140">
+		<Image Anchor="C,C" Size="Full,Full" Offst="0,0" ID="MyGameScreenLogo" />
+		<GridButton Style="BaseButton" ID="Continue" Size="200,30" Anchor="C,B" Offset="0,50" String="Continue"/>
+	</Container>
+	
+	<Container ID="MainSelection" Size="1000,600" Anchor="C,C" Offset="0,-30" Hidden="1">
+		<Grid Size="320,550" Anchor="L,T" Offset="0,0" Padding="0,0" Style="Grid9DetailFive140" >
+			<Stack Anchor="C,T" Offset="0,90" Padding="12" StackGrowth="Bottom"  ID="MenuStack" Hidden="0">
+				<GridButton Style="BaseButton"  ID="PredynastyButton" Size="240,52" Anchor="C,T" String="Predynastic Period" />
+				<GridButton Style="BaseButton"  ID="OldKingdomButton" Size="240,52" Anchor="C,T" String="Old Kingdom" />
+				<GridButton Style="BaseButton"  ID="FirstIntermediateButton" Size="240,52" Anchor="C,T" String="First Intermediate Period" />
+				<GridButton Style="BaseButton"  ID="MiddleKingdomButton" Size="240,52" Anchor="C,T" String="Middle Kingdom" />
+				<GridButton Style="BaseButton"  ID="SecondIntermediateButton" Size="240,52" Anchor="C,T" String="Second Intermediate Period" />
+				<GridButton Style="BaseButton"  ID="NewKingdomButton" Size="240,52" Anchor="C,T" String="New Kingdom" />
+			</Stack>
+		</Grid>
+		
+		<Grid Size="680,550" Anchor="R,T" Offset="10,0" Padding="0,0" Style="Grid9DetailFive140" >
+			<Label Anchor="C,T" Offset="0,15" Font="TwCenMT24" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Red Land Black Land"  />
+			<Label Anchor="C,C" Offset="0,0" ID="ReadyToPlay" Font="TwCenMT24" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="250" String="Choose a Scenario" />
+			<Label Anchor="C,T" Offset="0,50" ID="ScenarioHeader" Font="TwCenMT24" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="500" String="" />
+			<Label Anchor="C,T" Offset="0,80" ID="ScenarioText" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="600" String="" />
+		</Grid>
+		
+		<Grid Size="970,150" Anchor="C,B" Offset="0,-80" Padding="0,0" Style="Grid9DetailFive140" >
+			<GridButton Style="BaseButton"  ID="OKButton" Size="250,40" Anchor="R,C" Offset="50,0"  String="Play" Hidden="1" />
+			<GridButton Style="BaseButton"  ID="ResetButton" Size="250,40" Anchor="L,C" Offset="350,0"  String="Reset Settings" />
+			<GridButton Style="BaseButton"  ID="BackButton" Size="250,40" Anchor="L,C" Offset="50,0"  String="Back" />
+		</Grid>
+	</Container>
+</Context>

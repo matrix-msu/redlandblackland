@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by ModBuddy on 6/16/2011 11:10:21 AM 
+ Instruction==============================================================================
+ Each block of codes represents a leader's dialogue, under the "ROW TAG" is the text key, 
+ Please do not change the text key, it is an index and description for the dialogue       
+ For example, TXT_MHOTEP_FIRST_GREETING means this is the first greeting dialogue row for 
+ leader Mhotep. Please replace "Edit THE TEXT HERE PLEASE" with the corresponding text.   
+ Instruction==============================================================================-->
+
+<GameData>
+	
+	<Language_en_US>
+		<!--Predynastic temp 1-7-->
+		<Row Tag="TXT_KEY_LEADER_MENES_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENES_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENES_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENES_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENES_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENES_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENES_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENES_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENES_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENES_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_RAMI_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_NEBBIT_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEBBIT_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEBBIT_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEBBIT_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEBBIT_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEBBIT_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEBBIT_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEBBIT_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEBBIT_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEBBIT_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_SEBI_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SEBI_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SEBI_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SEBI_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SEBI_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SEBI_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SEBI_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SEBI_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SEBI_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SEBI_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_SCORPION_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SCORPION_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SCORPION_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SCORPION_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SCORPION_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SCORPION_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SCORPION_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SCORPION_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SCORPION_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SCORPION_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_AHA_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AHA_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AHA_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AHA_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AHA_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AHA_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AHA_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AHA_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AHA_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AHA_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+	
+	
+		<!--Old Kingdom-->
+		<Row Tag="TXT_KEY_LEADER_MHOTEP_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MHOTEP_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MHOTEP_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MHOTEP_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MHOTEP_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MHOTEP_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MHOTEP_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MHOTEP_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MHOTEP_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MHOTEP_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_RAMI_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMI_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_WOSERIT_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_WOSERIT_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_WOSERIT_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_WOSERIT_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_WOSERIT_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_WOSERIT_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_WOSERIT_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_WOSERIT_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_WOSERIT_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_WOSERIT_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_TANAFRITI_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TANAFRITI_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TANAFRITI_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TANAFRITI_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TANAFRITI_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TANAFRITI_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TANAFRITI_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TANAFRITI_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TANAFRITI_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TANAFRITI_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_NOMTI_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NOMTI_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NOMTI_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NOMTI_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NOMTI_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NOMTI_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NOMTI_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NOMTI_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NOMTI_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NOMTI_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_KEMOSIRI_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KEMOSIRI_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KEMOSIRI_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KEMOSIRI_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KEMOSIRI_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KEMOSIRI_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KEMOSIRI_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KEMOSIRI_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KEMOSIRI_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KEMOSIRI_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<!--First Intermediate-->
+		<Row Tag="TXT_KEY_LEADER_KHETII_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHETII_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHETII_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHETII_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHETII_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHETII_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHETII_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHETII_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHETII_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHETII_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_ANKHTIFI_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANKHTIFI_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANKHTIFI_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANKHTIFI_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANKHTIFI_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANKHTIFI_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANKHTIFI_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANKHTIFI_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANKHTIFI_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANKHTIFI_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_TEFIBI_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEFIBI_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEFIBI_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEFIBI_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEFIBI_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEFIBI_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEFIBI_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEFIBI_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEFIBI_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEFIBI_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_KAGEMNI_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KAGEMNI_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KAGEMNI_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KAGEMNI_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KAGEMNI_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KAGEMNI_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KAGEMNI_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KAGEMNI_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KAGEMNI_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KAGEMNI_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_INTEF_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_INTEF_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_INTEF_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_INTEF_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_INTEF_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_INTEF_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_INTEF_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_INTEF_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_INTEF_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_INTEF_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_NSU_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NSU_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NSU_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NSU_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NSU_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NSU_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NSU_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NSU_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NSU_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NSU_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<!--Middle Kingdom-->
+		<Row Tag="TXT_KEY_LEADER_SOWATE_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SOWATE_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SOWATE_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SOWATE_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SOWATE_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SOWATE_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SOWATE_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SOWATE_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SOWATE_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SOWATE_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_ADZETE_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADZETE_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADZETE_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADZETE_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADZETE_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADZETE_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADZETE_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADZETE_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADZETE_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADZETE_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_YEMOTELE_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_YEMOTELE_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_YEMOTELE_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_YEMOTELE_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_YEMOTELE_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_YEMOTELE_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_YEMOTELE_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_YEMOTELE_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_YEMOTELE_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_YEMOTELE_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_KANDAKE_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANDAKE_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANDAKE_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANDAKE_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANDAKE_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANDAKE_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANDAKE_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANDAKE_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANDAKE_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANDAKE_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_TEKU_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEKU_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEKU_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEKU_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEKU_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEKU_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEKU_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEKU_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEKU_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TEKU_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_ARDETHBAY_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ARDETHBAY_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ARDETHBAY_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ARDETHBAY_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ARDETHBAY_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ARDETHBAY_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ARDETHBAY_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ARDETHBAY_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ARDETHBAY_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ARDETHBAY_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<!--Second Intermediate-->
+		<Row Tag="TXT_KEY_LEADER_TETAAN_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TETAAN_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TETAAN_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TETAAN_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TETAAN_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TETAAN_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TETAAN_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TETAAN_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TETAAN_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TETAAN_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_SAKIRHAR_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SAKIRHAR_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SAKIRHAR_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SAKIRHAR_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SAKIRHAR_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SAKIRHAR_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SAKIRHAR_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SAKIRHAR_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SAKIRHAR_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SAKIRHAR_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_KHAMUDI_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHAMUDI_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHAMUDI_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHAMUDI_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHAMUDI_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHAMUDI_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHAMUDI_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHAMUDI_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHAMUDI_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KHAMUDI_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_APOPHIS_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_APOPHIS_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_APOPHIS_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_APOPHIS_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_APOPHIS_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_APOPHIS_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_APOPHIS_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_APOPHIS_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_APOPHIS_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_APOPHIS_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_KANOFER_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANOFER_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANOFER_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANOFER_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANOFER_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANOFER_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANOFER_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANOFER_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANOFER_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KANOFER_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_QESKAANT_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_QESKAANT_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_QESKAANT_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_QESKAANT_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_QESKAANT_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_QESKAANT_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_QESKAANT_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_QESKAANT_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_QESKAANT_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_QESKAANT_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<!--New Kingdom-->
+		<Row Tag="TXT_KEY_LEADER_SHUTTARNAII_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHUTTARNAII_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHUTTARNAII_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHUTTARNAII_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHUTTARNAII_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHUTTARNAII_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHUTTARNAII_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHUTTARNAII_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHUTTARNAII_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SHUTTARNAII_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_NEDJEH_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEDJEH_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEDJEH_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEDJEH_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEDJEH_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEDJEH_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEDJEH_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEDJEH_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEDJEH_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEDJEH_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_KASHTA_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KASHTA_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KASHTA_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KASHTA_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KASHTA_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KASHTA_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KASHTA_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KASHTA_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KASHTA_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KASHTA_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_BAK_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BAK_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BAK_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BAK_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BAK_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BAK_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BAK_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BAK_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BAK_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BAK_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_MUWATALLIII_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MUWATALLIII_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MUWATALLIII_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MUWATALLIII_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MUWATALLIII_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MUWATALLIII_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MUWATALLIII_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MUWATALLIII_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MUWATALLIII_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MUWATALLIII_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_ADADNIRARIII_FIRST_GREETING_1">
+			<Text>Greetings</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADADNIRARIII_DEFEATED_1">
+			<Text>You have won nothing. Strike me down and my spirit shall pursue your soul unto the very abyss!</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADADNIRARIII_GREETING_POLITE_1">
+			<Text>Oh, it's you.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADADNIRARIII_GREETING_NEUTRAL_1">
+			<Text>Good day.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADADNIRARIII_GREETING_HOSTILE_1">
+			<Text>And what do you want this time?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADADNIRARIII_MILLITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADADNIRARIII_EXPANSION_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADADNIRARIII_REQUEST_1">
+			<Text>Unfortunately things aren't going terribly well over here. Can you spare something for a friend? I'll try to return the favor when things are going better for me.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADADNIRARIII_LUXURY_TRADE_1">
+			<Text>You have a Luxury Resource that I would like. What do you think of this offer?</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ADADNIRARIII_OPEN_BORDER_EXCHANGE_1">
+			<Text>I believe it's in our mutual interest to allow free passage between our two great empires.</Text>
+
+		</Row>
+
+
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/7/2011 11:56:51 AM -->
+<GameData>
+	<Resources>
+		<Row>
+			<Type>RESOURCE_LIMESTONE</Type>
+			<Happiness>4</Happiness>
+			<TechCityTrade>TECH_MASONRY</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_LIMESTONE</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_LIMESTONE_TEXT</Civilopedia>
+			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_MARBLE</ArtDefineTag>
+			<AltArtDefineTag>ART_DEF_RESOURCE_MARBLE</AltArtDefineTag>
+			<WonderProductionMod>15</WonderProductionMod>
+			<PlacementOrder>3</PlacementOrder>
+			<ConstAppearance>50</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>25</RandApp1>
+			<RandApp2>25</RandApp2>
+			<Player>67</Player>
+			<Unique>3</Unique>
+			<Hills>true</Hills>
+			<NoRiverSide>true</NoRiverSide>
+			<IconString>[ICON_RES_MARBLE]</IconString>
+			<PortraitIndex>14</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+		</Row>
+	</Resources>
+	<Resource_YieldChanges>
+		<Row>
+			<ResourceType>RESOURCE_LIMESTONE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Resource_YieldChanges>
+	<Resource_Flavors>
+		<Row>
+			<ResourceType>RESOURCE_LIMESTONE</ResourceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Resource_Flavors>
+	<Resource_TerrainBooleans>
+		<Row>
+			<ResourceType>RESOURCE_LIMESTONE</ResourceType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_LIMESTONE</ResourceType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_LIMESTONE</ResourceType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_LIMESTONE</ResourceType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+	</Resource_TerrainBooleans>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_RESOURCE_LIMESTONE">
+			<Text>Limestone</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_LIMESTONE_HELP">
+			<Text>Used for Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_LIMESTONE">
+			<Text>BRONZE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_LIMESTONE_TEXT">
+			<Text>
+				BRONZE, as native BRONZE, is one of the few metals to occur naturally as an un-compounded mineral. BRONZE was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_LIMESTONE_TITLE1">
+			<Text>Technology Required to See</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_LIMESTONE_TITLE2">
+			<Text>Location</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_LIMESTONE_TITLE3">
+			<Text>Improvement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_LIMESTONE_TITLE4">
+			<Text>Yield Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_LIMESTONE_TITLE5">
+			<Text>Allows</Text>
+		</Row>
+	</Language_en_US>
+	<IconFontMapping>
+		<Row>
+			<IconName>ICON_RES_LIMESTONE</IconName>
+			<IconMapping>24</IconMapping>
+		</Row>
+	</IconFontMapping>
+	<Improvement_ResourceTypes>
+		<Row>
+			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
+			<ResourceType>RESOURCE_LIMESTONE</ResourceType>
+		</Row>
+	</Improvement_ResourceTypes>
+	<Improvement_ResourceType_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
+			<ResourceType>RESOURCE_LIMESTONE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_ResourceType_Yields>
+</GameData>

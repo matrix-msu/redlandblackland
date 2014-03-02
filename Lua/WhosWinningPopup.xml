@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/6/2011 11:15:25 AM -->
+<Context Font="TwCenMT14" FontStyle="Base" Color="Beige" Color1="Black" >
+	
+	<Box Style="BGBlock_ClearTopBar" />
+
+	<Grid Size="493,700" Anchor="C,C" Offset="0.0" Padding="0,0" Style="Grid9DetailFive140" >
+		<!-- X Presents Label  -->
+		<Label ID="PresentsLabel" Anchor="C,T" Offset="0,20" Font="TwCenMT16" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="Archaeological Sites Notes" />
+
+		<ScrollPanel Anchor="L,T" Offset="30,58" Size="450,500" ID="PlayerListScrollPanel" Vertical="1" >
+			<ScrollBar  Offset="-20,0" Style="VertSlider" Anchor="R,C" AnchorSide="O,I" Length="490" />
+			<Stack Anchor="L,T" Size="450,500" StackGrowth="B" Padding="0" ID="PlayerListStack">
+				<Image ID="DonImage" Anchor="L,T" Offset="0,0" AnchorSide="I.I" Size="180,220" Texture ="assets\UI\Art\Notification\AdvisorEconomic001.dds" Hidden="0"/>
+				<Label ID="NOTE" Anchor="L,T" WrapWidth="420" Offset="0.0" Font="TwCenMT16"/>
+			</Stack>
+		</ScrollPanel>
+
+		<Image Anchor="C,B" Offset="0,110" Texture="HorizontalTrim.dds" Size="458.5" />
+
+		<Box Anchor="C,B" AnchorSide="I.I" Offset="0,54"   Size="458,70" Color="255,255,255,0" >
+			<!-- TXT_KEY_CLOSE Button -->
+			<GridButton Anchor="L,B"  Style="SmallButton" Size="150,32"  Offset="14,0" StateOffsetIncrement="0,0" ID="CloseButton" ToolTip="TXT_KEY_CLOSE" >
+				<Label Anchor="C,C"  Offset="0,0"  String="TXT_KEY_CLOSE" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+			</GridButton>
+		</Box>
+
+
+	</Grid>
+</Context>

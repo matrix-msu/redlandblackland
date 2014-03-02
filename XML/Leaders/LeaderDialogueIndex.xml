@@ -1,0 +1,1668 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!--Created by ModBuddy on 6/8/2011 1:31:43 PM 
+ NOTICE =======================================================================
+ This is NOT the leader dialogue file, please do not touch it
+ NOTICE =======================================================================-->
+
+<GameData>
+	
+	<!--================================================================================
+	 Temp 1-7 =======================================================================-->
+	
+	
+	<Diplomacy_Responses>
+		<Delete LeaderType="LEADER_MENES"/>
+		<Row LeaderType="LEADER_MENES">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_MENES_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MENES">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_MENES_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MENES">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_MENES_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MENES">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_MENES_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MENES">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_MENES_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MENES">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_MENES_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MENES">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_MENES_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MENES">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_MENES_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MENES">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_MENES_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MENES">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_MENES_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+
+	<Diplomacy_Responses>
+		<Delete LeaderType="LEADER_AHA"/>
+		<Row LeaderType="LEADER_AHA">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_AHA_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHA">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_AHA_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHA">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_AHA_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHA">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_AHA_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHA">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_AHA_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHA">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_AHA_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHA">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_AHA_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHA">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_AHA_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHA">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_AHA_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHA">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_AHA_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+
+	<Diplomacy_Responses>
+		<Delete LeaderType="LEADER_SCORPION"/>
+		<Row LeaderType="LEADER_SCORPION">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_SCORPION_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SCORPION">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_SCORPION_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SCORPION">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SCORPION_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SCORPION">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SCORPION_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SCORPION">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SCORPION_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SCORPION">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_SCORPION_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SCORPION">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_SCORPION_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SCORPION">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_SCORPION_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SCORPION">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_SCORPION_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SCORPION">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_SCORPION_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+
+	<Diplomacy_Responses>
+		<Delete LeaderType="LEADER_SEBI"/>
+		<Row LeaderType="LEADER_SEBI">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_SEBI_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SEBI">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_SEBI_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SEBI">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SEBI_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SEBI">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SEBI_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SEBI">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SEBI_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SEBI">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_SEBI_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SEBI">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_SEBI_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SEBI">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_SEBI_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SEBI">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_SEBI_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SEBI">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_SEBI_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+
+	<Diplomacy_Responses>
+		<Delete LeaderType="LEADER_RAMI"/>
+		<Row LeaderType="LEADER_RAMI">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_RAMI_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_RAMI">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_RAMI_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_RAMI">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_RAMI_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_RAMI">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_RAMI_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_RAMI">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_RAMI_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_RAMI">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_RAMI_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_RAMI">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_RAMI_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_RAMI">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_RAMI_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_RAMI">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_RAMI_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_RAMI">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_RAMI_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+
+	<Diplomacy_Responses>
+		<Delete LeaderType="LEADER_NEBBIT"/>
+		<Row LeaderType="LEADER_NEBBIT">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_NEBBIT_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEBBIT">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_NEBBIT_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEBBIT">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_NEBBIT_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEBBIT">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_NEBBIT_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEBBIT">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_NEBBIT_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEBBIT">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_NEBBIT_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEBBIT">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_NEBBIT_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEBBIT">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_NEBBIT_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEBBIT">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_NEBBIT_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEBBIT">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_NEBBIT_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	 <!--================================================================================
+	 Old Kingdom ====================================================================
+	
+	 Mhotep-->
+				
+	<Diplomacy_Responses>
+		<Delete LeaderType="LEADER_MHOTEP"/>
+		<Row LeaderType="LEADER_MHOTEP">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_MHOTEP_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MHOTEP">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_MHOTEP_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MHOTEP">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_MHOTEP_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MHOTEP">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_MHOTEP_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MHOTEP">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_MHOTEP_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MHOTEP">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_MHOTEP_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MHOTEP">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_MHOTEP_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MHOTEP">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_MHOTEP_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MHOTEP">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_MHOTEP_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MHOTEP">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_MHOTEP_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+				 <!--Rami-->
+
+	<Diplomacy_Responses>
+		<Delete LeaderType="LEADER_OKRAMI"/>
+		<Row LeaderType="LEADER_OKRAMI">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_OKRAMI_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_OKRAMI">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_OKRAMI_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_OKRAMI">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_OKRAMI_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_OKRAMI">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_OKRAMI_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_OKRAMI">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_OKRAMI_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_OKRAMI">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_OKRAMI_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_OKRAMI">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_OKRAMI_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_OKRAMI">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_OKRAMI_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_OKRAMI">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_OKRAMI_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_OKRAMI">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_OKRAMI_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+					 <!--Woserit--> 
+						
+	<Diplomacy_Responses>
+		<Delete LeaderType="LEADER_WOSERIT"/>
+		<Row LeaderType="LEADER_WOSERIT">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_WOSERIT_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WOSERIT">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_WOSERIT_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WOSERIT">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_WOSERIT_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WOSERIT">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_WOSERIT_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WOSERIT">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_WOSERIT_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WOSERIT">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_WOSERIT_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WOSERIT">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_WOSERIT_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WOSERIT">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_WOSERIT_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WOSERIT">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_WOSERIT_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WOSERIT">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_WOSERIT_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+						 <!--Tanafriti--> 
+							
+	<Diplomacy_Responses>
+		<Delete LeaderType="LEADER_TANAFRITI"/>
+		<Row LeaderType="LEADER_TANAFRITI">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_TANAFRITI_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TANAFRITI">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_TANAFRITI_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TANAFRITI">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_TANAFRITI_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TANAFRITI">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_TANAFRITI_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TANAFRITI">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_TANAFRITI_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TANAFRITI">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_TANAFRITI_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TANAFRITI">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_TANAFRITI_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TANAFRITI">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_TANAFRITI_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TANAFRITI">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_TANAFRITI_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TANAFRITI">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_TANAFRITI_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+							 <!--Nomti--> 
+								
+	<Diplomacy_Responses>
+		<Delete LeaderType="LEADER_NOMTI"/>
+		<Row LeaderType="LEADER_NOMTI">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_NOMTI_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NOMTI">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_NOMTI_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NOMTI">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_NOMTI_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NOMTI">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_NOMTI_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NOMTI">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_NOMTI_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NOMTI">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_NOMTI_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NOMTI">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_NOMTI_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NOMTI">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_NOMTI_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NOMTI">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_NOMTI_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NOMTI">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_NOMTI_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+								 <!--Kemosiri-->
+									
+	<Diplomacy_Responses>
+		<Delete LeaderType="LEADER_KEMOSIRI"/>
+		<Row LeaderType="LEADER_KEMOSIRI">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_KEMOSIRI_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KEMOSIRI">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_KEMOSIRI_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KEMOSIRI">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KEMOSIRI_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KEMOSIRI">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KEMOSIRI_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KEMOSIRI">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KEMOSIRI_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KEMOSIRI">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_KEMOSIRI_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KEMOSIRI">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_KEMOSIRI_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KEMOSIRI">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_KEMOSIRI_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KEMOSIRI">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_KEMOSIRI_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KEMOSIRI">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_KEMOSIRI_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+									 <!--================================================================================
+	 First Intermediate =============================================================
+	 Kheti I-->
+		
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_KHETII">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_KHETII_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHETII">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_KHETII_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHETII">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KHETII_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHETII">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KHETII_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHETII">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KHETII_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHETII">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_KHETII_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHETII">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_KHETII_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHETII">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_KHETII_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHETII">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_KHETII_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHETII">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_KHETII_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+		 <!--Ankh-tifi--> 
+			
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_ANKHTIFI">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_ANKHTIFI_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ANKHTIFI">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_ANKHTIFI_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ANKHTIFI">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ANKHTIFI_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ANKHTIFI">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ANKHTIFI_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ANKHTIFI">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ANKHTIFI_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ANKHTIFI">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_ANKHTIFI_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ANKHTIFI">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_ANKHTIFI_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ANKHTIFI">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_ANKHTIFI_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ANKHTIFI">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_ANKHTIFI_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ANKHTIFI">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_ANKHTIFI_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+			 <!--Tefibi--> 
+				
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_TEFIBI">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_TEFIBI_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEFIBI">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_TEFIBI_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEFIBI">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_TEFIBI_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEFIBI">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_TEFIBI_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEFIBI">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_TEFIBI_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEFIBI">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_TEFIBI_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEFIBI">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_TEFIBI_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEFIBI">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_TEFIBI_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEFIBI">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_TEFIBI_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEFIBI">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_TEFIBI_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+				 <!--Kagemni--> 
+					
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_KAGEMNI">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_KAGEMNI_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KAGEMNI">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_KAGEMNI_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KAGEMNI">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KAGEMNI_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KAGEMNI">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KAGEMNI_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KAGEMNI">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KAGEMNI_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KAGEMNI">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_KAGEMNI_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KAGEMNI">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_KAGEMNI_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KAGEMNI">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_KAGEMNI_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KAGEMNI">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_KAGEMNI_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KAGEMNI">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_KAGEMNI_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+					 <!--Intef--> 
+						
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_INTEF">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_INTEF_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_INTEF">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_INTEF_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_INTEF">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_INTEF_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_INTEF">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_INTEF_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_INTEF">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_INTEF_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_INTEF">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_INTEF_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_INTEF">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_INTEF_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_INTEF">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_INTEF_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_INTEF">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_INTEF_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_INTEF">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_INTEF_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+						 <!--Nsu-->
+							
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_NSU">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_NSU_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NSU">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_NSU_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NSU">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_NSU_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NSU">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_NSU_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NSU">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_NSU_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NSU">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_NSU_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NSU">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_NSU_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NSU">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_NSU_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NSU">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_NSU_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NSU">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_NSU_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+
+	
+							 <!--================================================================================
+	 Middle Kingdom =================================================================
+	
+	 Sowate--> 
+		
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_SOWATE">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_SOWATE_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SOWATE">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_SOWATE_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SOWATE">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SOWATE_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SOWATE">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SOWATE_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SOWATE">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SOWATE_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SOWATE">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_SOWATE_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SOWATE">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_SOWATE_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SOWATE">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_SOWATE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SOWATE">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_SOWATE_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SOWATE">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_SOWATE_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+		 <!--Adzete-->
+			
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_ADZETE">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_ADZETE_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADZETE">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_ADZETE_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADZETE">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ADZETE_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADZETE">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ADZETE_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADZETE">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ADZETE_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADZETE">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_ADZETE_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADZETE">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_ADZETE_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADZETE">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_ADZETE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADZETE">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_ADZETE_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADZETE">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_ADZETE_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+			 <!--Yemotele-->
+				
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_YEMOTELE">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_YEMOTELE_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_YEMOTELE">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_YEMOTELE_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_YEMOTELE">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_YEMOTELE_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_YEMOTELE">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_YEMOTELE_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_YEMOTELE">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_YEMOTELE_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_YEMOTELE">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_YEMOTELE_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_YEMOTELE">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_YEMOTELE_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_YEMOTELE">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_YEMOTELE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_YEMOTELE">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_YEMOTELE_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_YEMOTELE">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_YEMOTELE_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+				 <!--Kandake--> 
+					
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_KANDAKE">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_KANDAKE_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANDAKE">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_KANDAKE_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANDAKE">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KANDAKE_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANDAKE">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KANDAKE_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANDAKE">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KANDAKE_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANDAKE">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_KANDAKE_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANDAKE">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_KANDAKE_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANDAKE">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_KANDAKE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANDAKE">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_KANDAKE_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANDAKE">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_KANDAKE_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+					 <!--Teku--> 
+						
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_TEKU">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_TEKU_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEKU">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_TEKU_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEKU">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_TEKU_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEKU">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_TEKU_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEKU">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_TEKU_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEKU">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_TEKU_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEKU">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_TEKU_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEKU">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_TEKU_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEKU">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_TEKU_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TEKU">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_TEKU_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	 <!--Ardeth Bay-->
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_ARDETHBAY">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_ARDETHBAY_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARDETHBAY">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_ARDETHBAY_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARDETHBAY">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ARDETHBAY_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARDETHBAY">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ARDETHBAY_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARDETHBAY">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ARDETHBAY_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARDETHBAY">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_ARDETHBAY_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARDETHBAY">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_ARDETHBAY_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARDETHBAY">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_ARDETHBAY_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARDETHBAY">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_ARDETHBAY_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARDETHBAY">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_ARDETHBAY_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+
+
+	
+	 <!--================================================================================
+	 Second Intermediate ============================================================
+	
+	 Tetaan--> 
+		
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_TETAAN">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_TETAAN_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TETAAN">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_TETAAN_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TETAAN">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_TETAAN_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TETAAN">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_TETAAN_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TETAAN">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_TETAAN_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TETAAN">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_TETAAN_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TETAAN">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_TETAAN_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TETAAN">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_TETAAN_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TETAAN">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_TETAAN_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_TETAAN">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_TETAAN_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+		 <!--Sakir-Har--> 
+			
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_SAKIRHAR">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_SAKIRHAR_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SAKIRHAR">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_SAKIRHAR_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SAKIRHAR">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SAKIRHAR_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SAKIRHAR">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SAKIRHAR_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SAKIRHAR">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SAKIRHAR_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SAKIRHAR">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_SAKIRHAR_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SAKIRHAR">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_SAKIRHAR_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SAKIRHAR">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_SAKIRHAR_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SAKIRHAR">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_SAKIRHAR_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SAKIRHAR">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_SAKIRHAR_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+			 <!--Khamudi-->
+				
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_KHAMUDI">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_KHAMUDI_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHAMUDI">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_KHAMUDI_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHAMUDI">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KHAMUDI_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHAMUDI">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KHAMUDI_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHAMUDI">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KHAMUDI_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHAMUDI">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_KHAMUDI_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHAMUDI">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_KHAMUDI_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHAMUDI">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_KHAMUDI_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHAMUDI">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_KHAMUDI_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KHAMUDI">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_KHAMUDI_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+				 <!--Apophis-->
+					
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_APOPHIS">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_APOPHIS_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_APOPHIS">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_APOPHIS_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_APOPHIS">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_APOPHIS_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_APOPHIS">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_APOPHIS_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_APOPHIS">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_APOPHIS_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_APOPHIS">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_APOPHIS_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_APOPHIS">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_APOPHIS_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_APOPHIS">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_APOPHIS_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_APOPHIS">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_APOPHIS_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_APOPHIS">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_APOPHIS_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+	<!--Kanofer-->
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_KANOFER">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_KANOFER_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANOFER">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_KANOFER_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANOFER">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KANOFER_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANOFER">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KANOFER_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANOFER">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KANOFER_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANOFER">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_KANOFER_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANOFER">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_KANOFER_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANOFER">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_KANOFER_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANOFER">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_KANOFER_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KANOFER">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_KANOFER_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+
+
+	
+					 <!--=========================================Khufu 
+	 Qeskaant--> 
+		
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_QESKAANT">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_QESKAANT_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_QESKAANT">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_QESKAANT_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_QESKAANT">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_QESKAANT_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_QESKAANT">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_QESKAANT_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_QESKAANT">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_QESKAANT_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_QESKAANT">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_QESKAANT_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_QESKAANT">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_QESKAANT_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_QESKAANT">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_QESKAANT_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_QESKAANT">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_QESKAANT_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_QESKAANT">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_QESKAANT_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+	
+	 <!--================================================================================
+	 New Kingdom ====================================================================
+	
+	Shuttarna II-->
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_SHUTTARNAII">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_SHUTTARNAII_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHUTTARNAII">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_SHUTTARNAII_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHUTTARNAII">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SHUTTARNAII_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHUTTARNAII">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SHUTTARNAII_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHUTTARNAII">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SHUTTARNAII_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHUTTARNAII">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_SHUTTARNAII_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHUTTARNAII">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_SHUTTARNAII_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHUTTARNAII">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_SHUTTARNAII_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHUTTARNAII">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_SHUTTARNAII_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHUTTARNAII">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_SHUTTARNAII_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+
+	
+	<!--Nedjeh-->
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_NEDJEH">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_NEDJEH_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEDJEH">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_NEDJEH_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEDJEH">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_NEDJEH_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEDJEH">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_NEDJEH_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEDJEH">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_NEDJEH_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEDJEH">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_NEDJEH_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEDJEH">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_NEDJEH_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEDJEH">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_NEDJEH_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEDJEH">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_NEDJEH_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_NEDJEH">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_NEDJEH_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+
+	  <!--Kasha--> 
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_KASHTA">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_KASHTA_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KASHTA">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_KASHTA_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KASHTA">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KASHTA_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KASHTA">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KASHTA_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KASHTA">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_KASHTA_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KASHTA">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_KASHTA_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KASHTA">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_KASHTA_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KASHTA">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_KASHTA_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KASHTA">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_KASHTA_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_KASHTA">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_KASHTA_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+
+	 <!--Bak--> 
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_BAK">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_BAK_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_BAK">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_BAK_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_BAK">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_BAK_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_BAK">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_BAK_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_BAK">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_BAK_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_BAK">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_BAK_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_BAK">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_BAK_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_BAK">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_BAK_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_BAK">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_BAK_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_BAK">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_BAK_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+
+	<!--Muwatalli II-->
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_MUWATALLIII">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_MUWATALLIII_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MUWATALLIII">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_MUWATALLIII_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MUWATALLIII">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_MUWATALLIII_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MUWATALLIII">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_MUWATALLIII_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MUWATALLIII">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_MUWATALLIII_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MUWATALLIII">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_MUWATALLIII_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MUWATALLIII">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_MUWATALLIII_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MUWATALLIII">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_MUWATALLIII_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MUWATALLIII">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_MUWATALLIII_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MUWATALLIII">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_MUWATALLIII_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+
+	
+	 <!--Adad-nirari II--> 
+	
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_ADADNIRARIII">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_ADADNIRARIII_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADADNIRARIII">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_ADADNIRARIII_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADADNIRARIII">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ADADNIRARIII_GREETING_POLITE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADADNIRARIII">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ADADNIRARIII_GREETING_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADADNIRARIII">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ADADNIRARIII_GREETING_HOSTILE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADADNIRARIII">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_ADADNIRARIII_MILLITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADADNIRARIII">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_ADADNIRARIII_EXPANSION_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADADNIRARIII">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_ADADNIRARIII_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADADNIRARIII">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_ADADNIRARIII_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ADADNIRARIII">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_ADADNIRARIII_OPEN_BORDER_EXCHANGE%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	
+</GameData>

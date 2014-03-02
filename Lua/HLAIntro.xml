@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/23/2011 3:44:34 PM -->
+<Context ID="HLAIntro" Font="TwCenMT14" FontStyle="Base" Color="Beige" Color1="Black">
+	<Box Anchor="C,C" Offset="0,20" Size="Full,Full" Color="0,0,0,160" ConsumeMouse="1">
+		<Grid Anchor="C,C" Offset="2,0" Size="840,620"  Style="Grid9DetailFive140" ConsumeMouse="0" Hidden="0">
+			<Label String="Historical Learning Agent" Anchor="C,T" Offset="0,19" Font="TwCenMT20" Color0="30.50.80.255" Color1="133.184.186.255" Color2="133.184.186.255" FontStyle="SoftShadow" />
+
+			<!--<Image Anchor="C,T" Offset="0,-33" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/topframe.dds" Size="512,128" />
+			<Image Anchor="C,B" Offset="0,-109" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/bottomframe.dds" Size="512,128" />-->
+
+			<Stack Offset="26,53" Padding="15" Anchor="L,T" StackGrowth="Right">
+				<!-- OA -->
+				<Box Color="255,255,255,0" Size="380,244">
+					<Image ID="OAImage" Anchor="L,B" AnchorSide="I.I" Size="180,220" Offset="0,0" Texture="assets\UI\Art\Notification\AdvisorEconomic001.dds" Hidden="0">
+						<Grid Size="184,224" Anchor="C,C" Offset="0,0" Style="Grid9Frame" Hidden="0" />
+						<Label ID="OALabel" Anchor="C,T" Offset="5.-24" Font="TwCenMT20"  FontStyle="SoftShadow" String="Gordon Peatree">
+							<!--<Button ToolTip="TXT_KEY_ADVISOR_ECON_TITLE" AnchorSide="O.I" Anchor="L,C" Size="32,32" Offset="0,0" Texture="assets\UI\Art\Advisors\AdvisorSymbolEconomic.dds" Hidden="0">
+
+								<ScrollAnim  Offset="0,0"  Size="32.32" Speed=".2" Pause=".5" Texture="assets\UI\Art\Advisors\AdvisorShine.dds" MaskTexture="assets\UI\Art\Advisors\AdvisorMaskEconomic.dds" />
+								<AlphaAnim Anchor="C,C" Offset="4,4" Size="32,32" Texture="assets\UI\Art\Advisors\AdvisorSpecShine.dds"  Pause="5" Cycle="Bounce" Speed="4" AlphaStart="0" AlphaEnd="1"  />
+								<AlphaAnim Anchor="C,C" Offset="0,-4" Size="32,32" Texture="assets\UI\Art\Advisors\AdvisorSpecShine.dds"  Pause="3" Cycle="Bounce" Speed="4" AlphaStart="0" AlphaEnd="1"  />
+
+							</Button>-->
+						</Label>
+					</Image>
+					<!--<Label ID="OALabel" Anchor="L,T" Offset="0, 0" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="SoftShadow" String="Gordon Peatree"/>-->
+
+					<Stack Padding="0" Anchor="R,B" StackGrowth="Right">
+
+						<!--<GridButton ID="OAPrevButton" Anchor="C,C" Style="SmallButton"  Size="100,32" Hidden="0">
+							<Label  Anchor="C,C" String="Prev"  Offset="0,0" ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Shadow"  />
+						</GridButton>-->
+
+						<Box Color="0,0,0,0" Size="120,32">
+							<Label Anchor="C,C" ID="OAPagesLabel" ColorSet="Beige_Black_Alpha" Font="TwCenMT14" FontStyle="Shadow"/>
+						</Box>
+
+						<!--<GridButton ID="OANextButton" Anchor="C,C" Style="SmallButton"  Size="100,32" Hidden="0">
+							<Label Anchor="C,C" String="Next"  Offset="0,0" ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Shadow"  />
+						</GridButton>-->
+
+					</Stack>
+
+					<ScrollPanel Anchor="L,T" Offset="185,25" Size="188,220" Vertical="1" ID="OA_ScrollPanel">
+						<ScrollBar Style="VertSlider" Anchor="R,C" AnchorSide="o,i" Length="186" ID="OAScrollBar"/>
+						<UpButton Style="ScrollBarUp" Anchor="R,T" AnchorSide="o,i" ID="OAUpButton"/>
+						<DownButton Style="ScrollBarDown" Anchor="R,B" AnchorSide="o,i" ID="OADownButton"/>
+						<Stack Anchor="L,T" Offset="0,0" Size="0,0" StackGrowth="Bottom" Padding="0">
+							<Container Size="1,1" ID="Spacer1">
+							</Container>
+							<Label ID="HLA" Anchor="L,T" WrapWidth="186" Offset="0.0" Font="TwCenMT16" String="He attended University of Cambridge, and was funded by the Egyptian Discovery Endowment to investigate pottery in Egypt. His work on seriation of ceramics is known throughout the world, and has a number of impressive finds, including numerous tombs and caches of artifacts. His work has been summarized in a massive tome titled 'Strangers in the Black Land: The Role of Migration, Diffusion and Foreign Invasion in Ancient Egypt' which reiterates his theory on the importance of foreign influence in the rise of Egyptian culture. Dr. Peatree uses primarily ceramics and religious excavations as evidence, with a strong emphasis on the role of diffusion as a mechanism for change."/>
+						</Stack>
+					</ScrollPanel>
+				</Box>
+
+				<!-- NA -->
+				<Box Color="255,255,255,0" Size="380,244">
+					<Image ID="NAImage" Anchor="L,B" AnchorSide="I.I" Size="180,220" Offset="0,0" Texture="assets\UI\Art\Advisors\AdvisorMilitary001.dds" Hidden="0">
+						<Grid Size="184,224" Anchor="C,C" Offset="0,0" Style="Grid9Frame" Hidden="0"/>
+						<Label ID="NALabel" Anchor="C,T" Offset="5.-24" Font="TwCenMT20"  FontStyle="SoftShadow" String="Jack Danielson">
+							<!--<Button ToolTip="TXT_KEY_ADVISOR_MILITARY_TITLE" AnchorSide="O.I" Anchor="L,C" Size="32,32" Offset="0,0" Texture="assets\UI\Art\Advisors\AdvisorSymbolMilitary.dds" Hidden="0">
+								<ScrollAnim  Offset="0,0"  Size="32.32" Speed=".2" Pause=".5" Texture="assets\UI\Art\Advisors\AdvisorShine.dds" MaskTexture="assets\UI\Art\Advisors\AdvisorMaskMilitary.dds" />
+								<AlphaAnim Anchor="C,C" Offset="4,4" Size="32,32" Texture="assets\UI\Art\Advisors\AdvisorSpecShine.dds"  Pause="5" Cycle="Bounce" Speed="4" AlphaStart="0" AlphaEnd=".7"  />
+								<AlphaAnim Anchor="C,C" Offset="-3,-6" Size="32,32" Texture="assets\UI\Art\Advisors\AdvisorSpecShine.dds"  Pause="3" Cycle="Bounce" Speed="4" AlphaStart="0" AlphaEnd=".7"  />
+							</Button>-->
+						</Label>
+					</Image>
+					<!--<Label ID="NALabel" Anchor="L,T" Offset="0,0" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="SoftShadow" String="Jack Danielson"/>-->
+
+					<Stack Padding="0" Anchor="R,B" StackGrowth="Right">
+
+						<!--<GridButton ID="NAPrevButton" Style="SmallButton"  Size="100,32" Hidden="0">
+							<Label  Anchor="C,C" String="Prev"  Offset="0,0" ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Shadow"  />
+						</GridButton>-->
+
+						<Box Color="0,0,0,0" Size="120,32">
+							<Label Anchor="C,C" ID="NAPagesLabel" ColorSet="Beige_Black_Alpha" Font="TwCenMT14" FontStyle="Shadow"/>
+						</Box>
+
+						<!--<GridButton ID="NANextButton" Style="SmallButton"  Size="100,32" Hidden="0">
+							<Label Anchor="C,C" String="Next"  Offset="0,0" ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Shadow"  />
+						</GridButton>-->
+
+
+					</Stack>
+
+
+					<ScrollPanel Anchor="L,T" Offset="185,25" Size="188,220" Vertical="1" ID="NA_ScrollPanel">
+						<ScrollBar Style="VertSlider" Anchor="R,C" AnchorSide="o,i" Length="186" ID="MAScrollBar"/>
+						<UpButton Style="ScrollBarUp" Anchor="R,T" AnchorSide="o,i" ID="MAUpButton"/>
+						<DownButton Style="ScrollBarDown" Anchor="R,B" AnchorSide="o,i" ID="MADownButton"/>
+						<Stack Anchor="L,T" Offset="0,0" Size="0,0" StackGrowth="Bottom" Padding="0">
+							<Container Size="1,1" ID="Spacer2">
+							</Container>
+							<Label ID="HLA2" Anchor="L,T" WrapWidth="186" Offset="0.0" Font="TwCenMT16" String="After receiving both his BA and PhD at University of Chicago, he began a number of highly successful field seasons excavating predynastic households throughout Upper Egypt. He now runs a field school for his students creating digital maps of ancient domestic sites in Egypt. His most recent publication was titled 'Digital Black Lands: Using Technology to Reconstruct Ancient Egypt' which deconstructs texts and inscriptions by using archaeological evidence and new technological methods to understand what actually occurred. Dr. Helner uses domestic sites and a range of evidence, taking a scientific method approach towards excavation."/>
+						</Stack>
+					</ScrollPanel>
+				</Box>
+			</Stack>
+
+			<Stack Offset="26,312" Padding="15" Anchor="L,T" StackGrowth="Right">
+				<!--EG -->
+
+				<Box Color="255,255,255,0" Size="380,244">
+					<Image ID="EG" Anchor="L,B" AnchorSide="I.I" Size="180,220" Offset="0,0" Texture="assets\UI\Art\Advisors\AdvisorForeign001.dds" Hidden="0">
+						<Grid Size="184,224" Anchor="C,C" Offset="0,0" Style="Grid9Frame" Hidden="0"/>
+						<Label ID="EGLabel" Anchor="C,T" Offset="5.-24" Font="TwCenMT20"  FontStyle="SoftShadow" String="Hazi Wawat">
+
+							<!--<Button AnchorSide="O.I" Anchor="L,C" Size="32,32" Offset="0,0" Texture="assets\UI\Art\Advisors\AdvisorSymbolForeign.dds" Hidden="0">
+								<ScrollAnim  Offset="0,0"  Size="32.32" Speed=".2" Pause=".5" Texture="assets\UI\Art\Advisors\AdvisorShine.dds" MaskTexture="assets\UI\Art\Advisors\AdvisorMaskForeign.dds" />
+								<AlphaAnim Anchor="C,C" Offset="6,5" Size="32,32" Texture="assets\UI\Art\Advisors\AdvisorSpecShine.dds"  Pause="5" Cycle="Bounce" Speed="4" AlphaStart="0" AlphaEnd=".7"  />
+								<AlphaAnim Anchor="C,C" Offset="-2,-5" Size="32,32" Texture="assets\UI\Art\Advisors\AdvisorSpecShine.dds"  Pause="3" Cycle="Bounce" Speed="4" AlphaStart="0" AlphaEnd=".7"  />
+							</Button>-->
+
+						</Label>
+
+					</Image>
+					<!--<Label ID="EGLabel" Anchor="L,T" Offset="0,0" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="SoftShadow" String="Hazi Wawat"/>-->
+
+					<Stack Padding="0" Anchor="R,B" StackGrowth="Right">
+
+						<!--<GridButton ID="EGPrevButton" Style="SmallButton"  Size="100,32" Hidden="0">
+							<Label  Anchor="C,C" String="Prev"  Offset="0,0" ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Shadow"  />
+						</GridButton>-->
+
+						<Box Color="0,0,0,0" Size="120,32">
+							<Label Anchor="C,C" ID="EGPagesLabel" ColorSet="Beige_Black_Alpha" Font="TwCenMT14" FontStyle="Shadow"/>
+						</Box>
+
+						<!--<GridButton ID="EGNextButton" Style="SmallButton"  Size="100,32" Hidden="0">
+							<Label Anchor="C,C" String="Next"  Offset="0,0" ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Shadow"  />
+						</GridButton>-->
+
+					</Stack>
+
+
+					<ScrollPanel Anchor="L,T" Offset="185,25" Size="188,220" Vertical="1" ID="EG_ScrollPanel">
+						<ScrollBar Style="VertSlider" Anchor="R,C" AnchorSide="o,i" Length="186" ID="EGScrollBar"/>
+						<UpButton Style="ScrollBarUp" Anchor="R,T" AnchorSide="o,i" ID="EGUpButton"/>
+						<DownButton Style="ScrollBarDown" Anchor="R,B" AnchorSide="o,i" ID="EGDownButton"/>
+						<Stack Anchor="L,T" Offset="0,0" Size="0,0" StackGrowth="Bottom" Padding="0">
+							<Container Size="1,1" ID="Spacer3">
+							</Container>
+							<Label ID="HLA3" Anchor="L,T" WrapWidth="186" Offset="0.0" Font="TwCenMT16" String="He received his BA from Alexandria University and then pursued a PhD from Cairo University. He is most famous for his work on epigraphy, the study of inscriptions, and papyrology, the study of papyrus, titled 'The Stylus is Mightier Than the Spade'. In this work he argued his primary philosophy, that texts are more representative and truthful of the past than artifacts and archaeological sites, which are obscured over time and biased by selective excavation. Dr. Wawat uses primarily inscriptions, epigraphy, papyrus, hieroglyphs and pictographs to create interpretations of Ancient Egypt."/>
+						</Stack>
+					</ScrollPanel>
+				</Box>
+
+
+
+				<!--GS -->
+
+				<Box Color="255,255,255,0" Size="380,244">
+					<Image ID="GSImage" Anchor="L,B" AnchorSide="I.I" Size="180,220" Offset="0,0" Texture="assets\UI\Art\Advisors\AdvisorScience001.dds" Hidden="0">
+						<Grid Size="184,224" Anchor="C,C" Offset="0,0" Style="Grid9Frame" Hidden="0"/>
+
+						<Label ID="GSLabel" Anchor="C,T" Offset="5.-24" Font="TwCenMT20"  FontStyle="SoftShadow" String="Evie Herbert">
+							<!--<Button AnchorSide="O.I" Anchor="L,C" Size="32,32" Offset="0,0" Texture="assets\UI\Art\Advisors\AdvisorSymbolScience.dds" Hidden="0">
+								<ScrollAnim  Offset="0,0"  Size="32.32" Speed=".2" Pause=".5" Texture="assets\UI\Art\Advisors\AdvisorShine.dds" MaskTexture="assets\UI\Art\Advisors\AdvisorMaskScience.dds" />
+								<AlphaAnim Anchor="C,C" Offset="4,4" Size="32,32" Texture="assets\UI\Art\Advisors\AdvisorSpecShine.dds"  Pause="5" Cycle="Bounce" Speed="4" AlphaStart="0" AlphaEnd="1"  />
+								<AlphaAnim Anchor="C,C" Offset="0,-4" Size="32,32" Texture="assets\UI\Art\Advisors\AdvisorSpecShine.dds"  Pause="3" Cycle="Bounce" Speed="4" AlphaStart="0" AlphaEnd="1"  />
+							</Button>-->
+						</Label>
+
+					</Image>
+					<!--<Label ID="GSLabel" Anchor="L,T" Offset="0,0" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="SoftShadow" String="Evie Herbert"/>-->
+					<Stack Padding="0" Anchor="R,B" StackGrowth="Right">
+
+						<!--<GridButton ID="GSPrevButton" Style="SmallButton"  Size="100,32" Hidden="0">
+							<Label  Anchor="C,C" String="TXT_KEY_ADVISOR_COUNSEL_SCIENCE_PREV"  Offset="0,0" ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Shadow"  />
+						</GridButton>-->
+
+						<Box Color="0,0,0,0" Size="120,32">
+							<Label Anchor="C,C" ID="GSPagesLabel" ColorSet="Beige_Black_Alpha" Font="TwCenMT14" FontStyle="Shadow"/>
+						</Box>
+
+						<!--<GridButton ID="GSNextButton" Style="SmallButton"  Size="100,32" Hidden="0">
+							<Label Anchor="C,C" String="TXT_KEY_ADVISOR_COUNSEL_SCIENCE_NEXT"  Offset="0,0" ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Shadow"  />
+						</GridButton>-->
+
+					</Stack>
+
+					<ScrollPanel Anchor="L,T" Offset="185,25" Size="188,220" Vertical="1" ID="GS_ScrollPanel">
+						<ScrollBar Style="VertSlider" Anchor="R,C" AnchorSide="o,i" Length="186" ID="GSScrollBar"/>
+						<UpButton Style="ScrollBarUp" Anchor="R,T" AnchorSide="o,i" ID="GSUpButton"/>
+						<DownButton Style="ScrollBarDown" Anchor="R,B" AnchorSide="o,i" ID="GSDownButton"/>
+						<Stack Anchor="L,T" Offset="0,0" Size="0,0" StackGrowth="Bottom" Padding="0">
+							<Container Size="1,1" ID="Spacer4">
+							</Container>
+							<Label ID="HLA4" Anchor="L,T" WrapWidth="186" Offset="0.0" Font="TwCenMT16" String="She is a graduate student at the American University at Cairo studying mortuary practices of Predynastic and Old Kingdom Egypt. Her Masters from University of St. Andrews focused on disease and work-related pathology in a skeletal remains from a worker's cemetery near the Valley of the Kings. Now she works as a research and teaching assistant to Dr. Helner, attempting to balance her own research with his, while alsokeeping track of the twenty undergraduate students during the field school. Evie's job is to mainly fill in the gaps with her knowledge of Egypt, and attempt to resolve some of the disputes between the advisors."/>
+						</Stack>
+					</ScrollPanel>
+
+					<!--<ScrollPanel Anchor="L,T" Offset="185,25" Size="188,220" Vertical="1" ID="GS_ScrollPanel">
+						<ScrollBar Style="VertSlider" Anchor="R,C" AnchorSide="o,i" Length="186" ID="GSScrollBar"/>
+						<UpButton Style="ScrollBarUp" Anchor="R,T" AnchorSide="o,i" ID="GSUpButton"/>
+						<DownButton Style="ScrollBarDown" Anchor="R,B" AnchorSide="o,i" ID="GSDownButton"/>
+						<Stack Anchor="L,T" Offset="0,0" Size="0,0" StackGrowth="Bottom" Padding="0">
+							<Container Size="1,1" ID="Spacer4">
+							</Container>
+							<Label ID="HLA4" Anchor="L,T" WrapWidth="186" Offset="0.0" Font="TwCenMT16" String=""/>
+					   </Stack>
+					</ScrollPanel>-->
+				</Box>
+
+
+
+			</Stack>
+
+			<Button ID="CloseButton" Anchor="R,T" Offset="26,6" Size="32,32" Texture="CloseMinButtons.dds" TextureOffset="28,-2" ToolTip="TXT_KEY_ESC_TO_EXIT" />"
+		</Grid>
+	</Box>
+</Context>
